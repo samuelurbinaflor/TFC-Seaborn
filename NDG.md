@@ -9,6 +9,9 @@
   - [Acto 1 – Rutina](#acto-1--rutina)
   - [Acto 2 – Primera Infiltración Nocturna](#acto-2--primera-infiltración-nocturna)
   - [Acto 3 – Muerte de la Anciana](#acto-3--muerte-de-la-anciana)
+- [Temas y Mensaje](#temas-y-mensaje)
+- [Arcos de Personaje](#arcos-de-personaje)
+- [Experiencia Emocional del Jugador](#experiencia-emocional-del-jugador)
 - [Personajes](#personajes)
   - [Protagonista](#protagonista)
   - [Antagonista](#antagonista)
@@ -46,35 +49,66 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 - **Proyecto secreto:** **Proyecto G.A.D.I.R.** – Generación Aislada de Desarrollo Identitario Restringido  
 - **Lema del centro:** "Por un futuro seguro"  
 - **Ambientación:** Instalaciones futuristas y tecnología avanzada, con simulaciones realistas del exterior inundado  
+- **Sociedad y control social:** Los niños están aislados del mundo exterior, con estrictos horarios, vigilancia constante y educación manipulada. Se les enseña que la protección del centro justifica la limitación de libertad.
 
 ---
 
 ## Desarrollo Narrativo (DEMO)
 
 ### Acto 1 – Rutina
-- Empieza en el aula, justo al terminar la clase  
-- Vas a comer, das una vuelta por el centro y hablas con algún NPC que te entrega un objeto sin importancia (introducción al inventario)  
-- Te encuentras con Alejandro, tu mejor amigo, quien te comenta que tiene algo que enseñarte; os veis esa noche en el despacho del director. Te entrega una nota con un código y una linterna  
-- Vas al dormitorio, duermes un poco y por la noche te levantas para la aventura  
-
-**Checkpoint**
+Rafael comienza su día en el aula, siguiendo una rutina estricta. Interactúa con compañeros y NPCs que introducen mecánicas de exploración y objetos sin importancia, preparando al jugador para la curiosidad y el descubrimiento. La aparición de Alejandro, su mejor amigo, marca el inicio de la tensión narrativa: le entrega una linterna y el código para acceder al despacho del director, adentrando al protagonista en su primera aventura de sigilo.
 
 ### Acto 2 – Primera Infiltración Nocturna
-- Por la noche caminas por pasillos hasta el despacho, esquivando guardias y cámaras (introducción al sigilo; si te pillan, checkpoint)  
-- Al llegar al despacho, introduces el código y te cuelas; Alejandro te está esperando dentro  
-- En la mesa ves un archivador del que sobresale un papel con tu nombre, en la portada pone "Proyecto confidencial G.A.D.I.R". Justo cuando lo vas a abrir, escuchas un ruido y escapas (implementar decisiones que cambien el resultado)  
-- Vas a la habitación a dormir, perturbado por el archivador  
-
-**Checkpoint**
+Durante la noche, Rafael se aventura en zonas restringidas del COAC. El jugador experimenta sigilo, tensión y riesgo: cada paso puede ser detectado, aumentando la implicación emocional. El descubrimiento del archivador con el nombre de Rafael introduce el conflicto central: la verdad está oculta y el mundo que conoce es una mentira. Aquí se busca generar curiosidad, desconfianza y sensación de transgresión.
+Durante la incursión nocturna, los amigos son sorprendidos por un guardia. Alejandro se sacrifica para proteger a Rafael, lo que provoca que sea capturado y recluido en una celda del COAC, sometiéndose a severos castigos por desobedecer las normas del centro.
 
 ### Acto 3 – Muerte de la Anciana
-- Al día siguiente el director te convoca a su despacho; crees que es porque te pillaron  
-- Resulta que te da la noticia de que Pepa, la anciana que te rescató de la inundación, está a punto de fallecer  
-- Vas a verla al hospital o su habitación, hablas con ella, te cuenta algunas cosas y te entrega una nota  
-- La anciana fallece  
-- Vuelves a tu cuarto, melancólico, miras por la ventana, abres la nota y ves un mensaje del tipo: "Descubre la verdad, no todo lo que ves es cierto". Mientras miras por la ventana, el paisaje natural parece glitchar por un segundo... ¿ha sido una ilusión o es que el paisaje que llevas toda la vida viendo es una falsa?
+La muerte de Pepa provoca un fuerte impacto emocional. Rafael recibe pistas sobre la verdad oculta, incrementando la sensación de vulnerabilidad y urgencia. La confrontación con la realidad y la incertidumbre del entorno crea un momento de reflexión para el jugador, que se pregunta hasta qué punto la percepción de la realidad puede ser manipulada.
 
-**Fin de la demo**
+**Fin de la demo:** Duda existencial y apertura a futuras decisiones, dejando al jugador con la sensación de que la historia continúa más allá de la demo.
+
+---
+
+## Temas y Mensaje
+
+### Temas principales
+La narrativa explora el poder institucional, la construcción de la identidad y la memoria, y cómo los relatos oficiales pueden alterar la percepción de la realidad. Además, muestra la manipulación de la sociedad bajo la excusa de protección y la tensión entre la verdad objetiva y la versión que se quiere imponer.
+
+### Intención narrativa
+El juego pretende hacer que el jugador cuestione lo que se le presenta como verdad, experimentando la confusión y el descubrimiento junto a Rafael. Más allá de la historia, se busca transmitir una reflexión sobre la autoridad, la ética y el valor de la libertad individual frente al control social.
+
+---
+
+## Arcos de Personaje
+
+### Arco de Rafael
+- **Inicio:** Cree en el sistema, aunque percibe dudas internas sobre lo que le enseñan.  
+- **Conflicto:** Los descubrimientos sobre el COAC y el proyecto G.A.D.I.R. comienzan a desafiar su percepción de la realidad y su propia identidad.  
+- **Crisis:** La muerte de Pepa provoca una necesidad urgente de descubrir la verdad sobre su pasado y su entorno.  
+- **Resolución:** Toma decisiones conscientes para desafiar al sistema, descubrir la verdad y recuperar su libertad.
+
+### Arco de Pepa
+- **Inicio:** Aparente protectora y salvadora, justifica sus acciones por la seguridad del centro.  
+- **Conflicto:** Siente culpa al darse cuenta de que Rafael comienza a cuestionar todo.  
+- **Resolución:** Acepta sus errores y deja pistas para que Rafael pueda descubrir la verdad, mostrando ambigüedad moral.
+
+### Arco de Alejandro
+- **Inicio:** Amigo leal, impulsivo y optimista.  
+- **Conflicto:** Debe equilibrar su curiosidad y su deseo de ayudar con el riesgo de ser descubierto.  
+- **Resolución:** Aprende la importancia de la prudencia y el impacto de sus acciones en Rafael y el centro.
+
+---
+
+## Experiencia Emocional del Jugador
+
+El diseño busca que el jugador no solo siga la historia, sino que la **sienta**:
+
+- **Acto 1 – Rutina:** Aparente normalidad y familiaridad, sensación de seguridad y cotidianeidad.  
+- **Acto 2 – Primera Infiltración Nocturna:** Tensión creciente, nerviosismo y curiosidad; la sensación de peligro hace que el jugador se involucre emocionalmente.  
+- **Acto 3 – Muerte de la Anciana:** Impacto emocional y vulnerabilidad; el jugador experimenta tristeza, sorpresa y empatía con Rafael.  
+Final de la demo: Reflexión y duda existencial. El jugador se da cuenta de que el mundo que conoce Rafael podría no ser real, generando inquietud y cuestionamiento. Al mismo tiempo, se despierta la curiosidad y las ganas de continuar la aventura: descubrir la verdad, salvar a Alejandro y escapar del COAC.
+
+El objetivo es que el jugador viva los descubrimientos y dilemas junto a los personajes, sintiendo miedo, curiosidad, tristeza y motivación a medida que progresa en la historia.
 
 ---
 
@@ -82,21 +116,21 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 
 ### Protagonista
 - **Nombre:** Rafael Azara Flores  
-- **Fecha de nacimiento:** 28 de octubre de 2049 
+- **Fecha de nacimiento:** 28 de octubre de 2049  
 - **Signo Zodiacal:** Escorpio  
 - **Edad actual:** 17 años (cumple 18 en el juego)  
 - **Carácter:** intenso, apasionado, curioso, intuitivo, desconfiado pero leal, sensible, empático, rebelde e impulsivo  
 
 ### Antagonista
 - **Nombre:** Josefa (Pepa)  
-- **Fecha de nacimiento:** 19 de marzo de 1998
+- **Fecha de nacimiento:** 19 de marzo de 1998  
 - **Signo Zodiacal:** Piscis  
 - **Edad actual:** 70  
 - **Carácter:** astuta y manipuladora, moral ambigua, aparenta ser protectora pero sigue órdenes del COAC, dominante  
 
 ### Amigo
 - **Nombre:** Alejandro Ortega Ramos  
-- **Fecha de nacimiento:** 30 de noviembre de 2047 
+- **Fecha de nacimiento:** 30 de noviembre de 2047  
 - **Edad actual:** 19 años  
 - **Carácter:** aventurero, curioso, optimista, motivador, directo, protector  
 
@@ -107,9 +141,9 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 ---
 
 ## Anexo I: Referencias
-- **Fecha de la catástrofe:** 12 de febrero de 2050 (fecha de inicio del Carnaval de Cádiz)
-- **C.O.A.C:** Concurso Oficial de Agrupaciones Carnavalescas
-- **G.A.D.I.R:** Acrónimo del proyecto (inspirado en Gadir, nombre fenicio de Cádiz)
+- **Fecha de la catástrofe:** 12 de febrero de 2050 (fecha de inicio del Carnaval de Cádiz)  
+- **C.O.A.C:** Concurso Oficial de Agrupaciones Carnavalescas  
+- **G.A.D.I.R:** Acrónimo del proyecto (inspirado en Gadir, nombre fenicio de Cádiz)  
 - **Rafael:** 28 de octubre de 2049 (fecha de nacimiento de Rafael Alberti)  
 - **Josefa (Pepa):** 19 de marzo de 1998 (fecha de la Constitución Española "La Pepa")  
-- **Alejandro Ortega Ramos:** 30 de noviembre de 2047 (Nombre y apellidos de mis profesores, Alejandro Carmona, David Ramos y Javier Ortega; mi fecha de nacimiento)
+- **Alejandro Ortega Ramos:** 30 de noviembre de 2047 (inspirado en los nombres de los profesores Alejandro Carmona, David Ramos y Javier Ortega)
