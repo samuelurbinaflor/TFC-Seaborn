@@ -5,19 +5,27 @@
 - [Historia del Juego](#historia-del-juego)
   - [Puntos de Giro](#puntos-de-giro)
 - [Contexto](#contexto)
+  - [Evolución Histórica del C.O.A.C.](#evolución-histórica-del-coac)
 - [Desarrollo Narrativo (DEMO)](#desarrollo-narrativo-demo)
   - [Acto 1 – Rutina](#acto-1--rutina)
   - [Acto 2 – Primera Infiltración Nocturna](#acto-2--primera-infiltración-nocturna)
   - [Acto 3 – Muerte de la Anciana](#acto-3--muerte-de-la-anciana)
 - [Temas y Mensaje](#temas-y-mensaje)
+  - [Temas principales](#temas-principales)
+  - [Intención narrativa](#intención-narrativa)
+  - [Narrativa ambiental](#narrativa-ambiental)
 - [Arcos de Personaje](#arcos-de-personaje)
+  - [Arco de Rafael](#arco-de-rafael)
+  - [Arco de Pepa](#arco-de-pepa)
+  - [Arco de Alejandro](#arco-de-alejandro)
 - [Experiencia Emocional del Jugador](#experiencia-emocional-del-jugador)
 - [Personajes](#personajes)
   - [Protagonista](#protagonista)
   - [Antagonista](#antagonista)
   - [Amigo](#amigo)
   - [NPCs Secundarios](#npcs-secundarios)
-- [Anexo I: Referencias](#anexo-i-referencias)
+- [Anexo I: Referencias internas y simbólicas](#anexo-i-referencias-internas-y-simbólicas)
+- [Anexo II: Referentes Narrativos y Justificación Creativa](#anexo-ii-referentes-narrativos-y-justificación-creativa)
 
 ---
 
@@ -51,6 +59,17 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 - **Ambientación:** Instalaciones futuristas y tecnología avanzada, con simulaciones realistas del exterior inundado  
 - **Sociedad y control social:** Los niños están aislados del mundo exterior, con estrictos horarios, vigilancia constante y educación manipulada. Se les enseña que la protección del centro justifica la limitación de libertad.
 
+### Evolución Histórica del C.O.A.C.
+El C.O.A.C. fue fundado en el año 2000 como un centro de investigación costera y climática, con el objetivo oficial de estudiar los efectos del cambio climático, la subida del nivel del mar y el desarrollo de tecnologías de protección y prevención frente a posibles catástrofes naturales.
+
+Durante sus primeras décadas (2000–2030), el centro funcionó como una institución científica legítima, centrada en la innovación tecnológica, la sostenibilidad y la protección del entorno costero. Sin embargo, tras la muerte de su fundador (El padre de Pepa) otra persona tomó el mando del centro y la ideología del proyecto comenzó a desviar su rumbo.
+
+Entre 2030 y 2050, el COAC experimentó una progresiva radicalización de sus objetivos. La obsesión por la seguridad y la supervivencia llevó a sus dirigentes a adoptar posturas cada vez más extremas, justificando la pérdida de libertades individuales como un mal necesario para garantizar la estabilidad futura. Esta deriva culminó en la concepción del Proyecto G.A.D.I.R., cuyo propósito era estudiar el desarrollo identitario de individuos criados en aislamiento absoluto.
+
+En 2050, la supuesta catástrofe que habría inundado la ciudad de Cádiz (la cual nunca llegó a suceder) se utilizó como excusa perfecta para poner en marcha dicho proyecto, permitiendo al centro secuestrar recién nacidos y ocultar sus verdaderos fines bajo la apariencia de una operación de rescate humanitario.
+
+Desde entonces y hasta 2067, el COAC ha operado como una institución cerrada, hermética y altamente vigilada, dedicada plenamente a la experimentación social, la manipulación psicológica y el control total de sus residentes.
+
 ---
 
 ## Desarrollo Narrativo (DEMO)
@@ -77,6 +96,13 @@ La narrativa explora el poder institucional, la construcción de la identidad y 
 ### Intención narrativa
 El juego pretende hacer que el jugador cuestione lo que se le presenta como verdad, experimentando la confusión y el descubrimiento junto a Rafael. Más allá de la historia, se busca transmitir una reflexión sobre la autoridad, la ética y el valor de la libertad individual frente al control social.
 
+### Narrativa ambiental
+El COAC está repleto de carteles propagandísticos que exaltan el papel del centro como salvador de la humanidad, reforzando constantemente el discurso oficial. Estos se combinan con normas estrictas que fomentan la obediencia, como el saludo militar obligatorio a los guardias o rituales diarios de carácter casi religioso.
+
+La arquitectura del centro, de estética futurista y clínica, recuerda a la de un complejo psiquiátrico o penitenciario. Todos los residentes visten uniformes que reflejan su estatus, mientras que la presencia constante de cámaras de vigilancia y registros aleatorios refuerza la sensación de control absoluto.
+
+A través de las ventanas solo se observa una Cádiz completamente inundada, sin rastro de vida humana, únicamente animales marinos y aves, reforzando la ilusión de un mundo exterior devastado.
+
 ---
 
 ## Arcos de Personaje
@@ -84,7 +110,7 @@ El juego pretende hacer que el jugador cuestione lo que se le presenta como verd
 ### Arco de Rafael
 - **Inicio:** Cree en el sistema, aunque percibe dudas internas sobre lo que le enseñan.  
 - **Conflicto:** Los descubrimientos sobre el COAC y el proyecto G.A.D.I.R. comienzan a desafiar su percepción de la realidad y su propia identidad.  
-- **Crisis:** La muerte de Pepa provoca una necesidad urgente de descubrir la verdad sobre su pasado y su entorno.  
+- **Crisis:** La muerte de Pepa y la cautividad de Alejandro provoca una necesidad urgente de descubrir la verdad sobre su pasado y su entorno.  
 - **Resolución:** Toma decisiones conscientes para desafiar al sistema, descubrir la verdad y recuperar su libertad.
 
 ### Arco de Pepa
@@ -101,7 +127,8 @@ El juego pretende hacer que el jugador cuestione lo que se le presenta como verd
 
 ## Experiencia Emocional del Jugador
 
-El diseño busca que el jugador no solo siga la historia, sino que la **sienta**:
+El diseño busca que el jugador no solo siga la historia, sino que la **sienta**.
+El sigilo, las zonas restringidas y la exploración busca generar sensación de opresión, curiosidad por lo prohibido y anhelo por descubrir la verdad.
 
 - **Acto 1 – Rutina:** Aparente normalidad y familiaridad, sensación de seguridad y cotidianeidad.  
 - **Acto 2 – Primera Infiltración Nocturna:** Tensión creciente, nerviosismo y curiosidad; la sensación de peligro hace que el jugador se involucre emocionalmente.  
@@ -123,10 +150,14 @@ El objetivo es que el jugador viva los descubrimientos y dilemas junto a los per
 
 ### Antagonista
 - **Nombre:** Josefa (Pepa)  
-- **Fecha de nacimiento:** 19 de marzo de 1998  
+- **Fecha de nacimiento:** 19 de marzo de 1984  
 - **Signo Zodiacal:** Piscis  
-- **Edad actual:** 70  
+- **Edad actual:** 83  
 - **Carácter:** astuta y manipuladora, moral ambigua, aparenta ser protectora pero sigue órdenes del COAC, dominante  
+
+Pepa es hija de uno de los fundadores del COAC, lo que la vinculó al proyecto desde una edad muy temprana (16 años). Creció dentro del entorno institucional, asimilando su ideología y objetivos como propios. Esta herencia la convirtió en una firme defensora del centro durante gran parte de su vida, aunque con el paso de los años lo que empezó siendo un proyecto de buenas intenciones, cambió por completo su deriva ética lo que le hizo desarrollar un profundo sentimiento de culpa.
+
+Su conflicto interno nace de la tensión entre la lealtad al legado de su padre y la conciencia de haber contribuido activamente a un sistema de control y experimentación humana.
 
 ### Amigo
 - **Nombre:** Alejandro Ortega Ramos  
@@ -140,10 +171,22 @@ El objetivo es que el jugador viva los descubrimientos y dilemas junto a los per
 
 ---
 
-## Anexo I: Referencias
+## Anexo I: Referencias internas y simbólicas
 - **Fecha de la catástrofe:** 12 de febrero de 2050 (fecha de inicio del Carnaval de Cádiz)  
 - **C.O.A.C:** Concurso Oficial de Agrupaciones Carnavalescas  
 - **G.A.D.I.R:** Acrónimo del proyecto (inspirado en Gadir, nombre fenicio de Cádiz)  
 - **Rafael:** 28 de octubre de 2049 (fecha de nacimiento de Rafael Alberti)  
-- **Josefa (Pepa):** 19 de marzo de 1998 (fecha de la Constitución Española "La Pepa")  
+- **Josefa (Pepa):** 19 de marzo de 1998 (fecha de la Constitución Española "La Pepa"; año 1984 por la novela de George Orwell)  
 - **Alejandro Ortega Ramos:** 30 de noviembre de 2047 (inspirado en los nombres de los profesores Alejandro Carmona, David Ramos y Javier Ortega)
+
+## Anexo II: Referentes Narrativos y Justificación Creativa
+La narrativa de *Seaborn* se inspira en diversas obras audiovisuales, literarias y videolúdicas que exploran la manipulación de la realidad, el control institucional y la construcción de la identidad.
+
+Entre los principales referentes destacan:
+- **1984 (George Orwell):** por su representación del control totalitario, la vigilancia constante y la manipulación ideológica.
+- **El show de Truman:** por la construcción de una realidad artificial destinada a controlar la percepción del protagonista.
+- **Inside:** por su narrativa ambiental, su atmósfera opresiva y el uso del silencio como recurso narrativo.
+- **Bioshock:** por la crítica al control ideológico y el uso del entorno como vehículo narrativo.
+- **SOMA:** por su reflexión existencial sobre la identidad, la conciencia y la verdad.
+
+Estos referentes han sido reinterpretados desde una perspectiva local, integrando elementos culturales propios de Cádiz, como el Carnaval, la simbología histórica y los nombres con carga semántica, con el objetivo de crear una identidad narrativa única y reconocible.
