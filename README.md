@@ -22,6 +22,8 @@ A lo largo de la historia, el jugador explorará distintos escenarios e interact
 - Herramientas: Godot, pyxeledit, audacity, github.
 
 ---
+Para referencias y notas del juego, consultar el [Anexo I – Referencias del GDD](GDD.md#anexo-i-referencias)
+---
 
 **Samuel Urbina Flor**  
 Trabajo Final de Curso de Especialización en Videojuegos
