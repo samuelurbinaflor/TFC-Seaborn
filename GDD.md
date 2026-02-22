@@ -16,7 +16,7 @@ _Separado de su familia desde bebé, Rafael crece en un centro aislado bajo estr
    - [Acto 3 – Muerte de la Anciana](#acto-3--muerte-de-la-anciana)  
 5. [Personajes](#personajes)  
    - [Protagonista](#protagonista)  
-   - [Antagonista (Anciana)](#antagonista-anciana)  
+   - [Antagonista](#antagonista)  
    - [Amigo](#amigo)  
    - [NPCs Secundarios](#npcs-secundarios)  
 6. [Mecánicas de Juego](#mecánicas-de-juego)  
@@ -111,21 +111,21 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 
 ### Protagonista
 - **Nombre:** Rafael Azara Flores  
-- **Fecha de nacimiento:** 28 de octubre de 2049 (referencia a Rafael Alberti)  
+- **Fecha de nacimiento:** 28 de octubre de 2049 
 - **Signo Zodiacal:** Escorpio  
 - **Edad actual:** 17 años (cumple 18 en el juego)  
 - **Carácter:** intenso, apasionado, curioso, intuitivo, desconfiado pero leal, sensible, empático, rebelde e impulsivo  
 
-### Antagonista (Anciana)
+### Antagonista
 - **Nombre:** Josefa (Pepa)  
-- **Fecha de nacimiento:** 19 de marzo de 1998 (referencia a la Constitución Española "La Pepa")  
+- **Fecha de nacimiento:** 19 de marzo de 1998
 - **Signo Zodiacal:** Piscis  
 - **Edad actual:** 70  
 - **Carácter:** astuta y manipuladora, moral ambigua, aparenta ser protectora pero sigue órdenes del COAC, dominante  
 
 ### Amigo
 - **Nombre:** Alejandro Ortega Ramos  
-- **Fecha de nacimiento:** 30 de noviembre de 2047 (referencia al creador)  
+- **Fecha de nacimiento:** 30 de noviembre de 2047 
 - **Edad actual:** 19 años  
 - **Carácter:** aventurero, curioso, optimista, motivador, directo, protector  
 
