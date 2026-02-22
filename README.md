@@ -23,5 +23,5 @@ A lo largo de la historia, el jugador explorará distintos escenarios e interact
 
 ---
 
-**Samuel**  
+**Samuel Urbina Flor**  
 Trabajo Final de Curso de Especialización en Videojuegos
