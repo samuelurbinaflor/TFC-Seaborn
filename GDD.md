@@ -29,7 +29,7 @@ _Separado de su familia desde bebé, Rafael crece en un centro aislado bajo estr
 10. [Interfaz y Experiencia de Usuario (UI/UX)](#interfaz-y-experiencia-de-usuario-uiux-por-completar)  
 11. [Requerimientos Técnicos](#requerimientos-técnicos-por-completar)  
 12. [Plan de Producción](#plan-de-producción-por-completar)  
-13. [Post-Producción](#post-Producción (por completar))  
+13. [Post-Producción](#post-Producción-(por-completar))  
 14. [Controles / Input](#controles--input)  
 15. [Arquitectura de datos / Save System](#arquitectura-de-datos--save-system)  
 16. [Tilesets y Layering Detallado](#tilesets-y-layering-detallado)  
