@@ -69,7 +69,7 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 ## Contexto
 
 - **Fecha actual:** 15 de octubre de 2067 (17 años desde la catástrofe; Rafael está a punto de cumplir 18)  
-- **Fecha de la catástrofe:** 12 de febrero de 2050 (referencia al Carnaval de Cádiz; Rafael tenía 4 meses)  
+- **Fecha de la catástrofe:** 12 de febrero de 2050 (Rafael tenía 4 meses)  
 - **Centro de confinamiento:** **C.O.A.C.** – Complejo Operativo de Avances Costeros  
 - **Proyecto secreto:** **Proyecto G.A.D.I.R.** – Generación Aislada de Desarrollo Identitario Restringido  
 - **Lema del centro:** "Por un futuro seguro"  
@@ -299,3 +299,13 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 - **UI:** HUD con slots, inventario, texto de interacción, menú de documentos  
 - **Animaciones cortas:** caminar, agacharse, andar agachado, interactuar, idle, waiting  
 - **Mapa mínimo necesario:** Dormitorio, Pasillo principal, Comedor / zona común, Aula, Oficina administrativa (restringida), Habitación de la anciana / hospital
+
+---
+
+## Anexo – Referencias
+- **Fecha de la catástrofe:** 12 de febrero de 2050 (fecha de inicio del Carnaval de Cádiz)
+- **C.O.A.C:** Concurso Oficial de Agrupaciones Carnavalescas
+- **G.A.D.I.R:** Acrónimo del proyecto (inspirado en Gadir, nombre fenicio de Cádiz)
+- **Rafael:** 28 de octubre de 2049 (fecha de nacimiento de Rafael Alberti)  
+- **Josefa (Pepa):** 19 de marzo de 1998 (fecha de la Constitución Española "La Pepa")  
+- **Alejandro Ortega Ramos:** 30 de noviembre de 2047 (Nombre y apellidos de mis profesores, Alejandro Carmona, David Ramos y Javier Ortega; mi fecha de nacimiento)
