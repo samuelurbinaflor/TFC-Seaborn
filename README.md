@@ -21,8 +21,10 @@ A lo largo de la historia, el jugador explorará distintos escenarios e interact
 - Animaciones: Caminar, correr, agacharse e interactuar.
 - Herramientas: Godot, pyxeledit, audacity, github.
 
----
-Para referencias y notas del juego, consultar el [Anexo I – Referencias del GDD](GDD.md#anexo-i-referencias)
+## Documentación adicional
+- [Game Design Document (GDD) completo](GDD.md) – Incluye historia, mecánicas, escenarios, personajes y anexo de referencias.  
+- [Guion completo / SCREENPLAY](SCREENPLAY.md) – Escenas narrativas y diálogos completos del juego.
+- [Libro de arte](Artbook.pdf) - Concept art, entornos y personajes
 ---
 
 **Samuel Urbina Flor**  
