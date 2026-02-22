@@ -34,6 +34,7 @@ _Separado de su familia desde bebé, Rafael crece en un centro aislado bajo estr
 15. [Arquitectura de datos / Save System](#arquitectura-de-datos--save-system)  
 16. [Tilesets y Layering Detallado](#tilesets-y-layering-detallado)  
 17. [Producto Mínimo Viable](#producto-mínimo-viable)
+18. [Anexo I: Referencias](#anexo-i-referencias)
 
 ---
 
@@ -302,7 +303,7 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 
 ---
 
-## Anexo – Referencias
+## Anexo I: Referencias
 - **Fecha de la catástrofe:** 12 de febrero de 2050 (fecha de inicio del Carnaval de Cádiz)
 - **C.O.A.C:** Concurso Oficial de Agrupaciones Carnavalescas
 - **G.A.D.I.R:** Acrónimo del proyecto (inspirado en Gadir, nombre fenicio de Cádiz)
