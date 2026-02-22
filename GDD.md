@@ -4,6 +4,39 @@ _Separado de su familia desde bebé, Rafael crece en un centro aislado bajo estr
 
 ---
 
+## Índice
+
+1. [Información General](#información-general)  
+2. [Historia del Juego](#historia-del-juego)  
+   - [Puntos de Giro](#puntos-de-giro)  
+3. [Contexto](#contexto)  
+4. [Desarrollo Narrativo (DEMO)](#desarrollo-narrativo-demo)  
+   - [Acto 1 – Rutina](#acto-1--rutina)  
+   - [Acto 2 – Primera Infiltración Nocturna](#acto-2--primera-infiltración-nocturna)  
+   - [Acto 3 – Muerte de la Anciana](#acto-3--muerte-de-la-anciana)  
+5. [Personajes](#personajes)  
+   - [Protagonista](#protagonista)  
+   - [Antagonista (Anciana)](#antagonista-anciana)  
+   - [Amigo](#amigo)  
+   - [NPCs Secundarios](#npcs-secundarios)  
+6. [Mecánicas de Juego](#mecánicas-de-juego)  
+   - [Protagonista](#protagonista-1)  
+   - [Guardias](#guardias)  
+   - [NPCs](#npcs)  
+7. [Escenario](#escenario-por-completar)  
+8. [Arte y Estilo Visual](#arte-y-estilo-visual-por-completar)  
+9. [Audio](#audio-por-completar)  
+10. [Interfaz y Experiencia de Usuario (UI/UX)](#interfaz-y-experiencia-de-usuario-uiux-por-completar)  
+11. [Requerimientos Técnicos](#requerimientos-técnicos-por-completar)  
+12. [Plan de Producción](#plan-de-producción-por-completar)  
+13. [Post-Producción](#PostProducción (por completar))  
+14. [Controles / Input](#controles--input)  
+15. [Arquitectura de datos / Save System](#arquitectura-de-datos--save-system)  
+16. [Tilesets y Layering Detallado](#tilesets-y-layering-detallado)  
+17. [Producto Mínimo Viable](#producto-mínimo-viable)
+
+---
+
 ## Información General
 
 - **Nombre del juego:** "Seaborn: February 12th" / "Hijo del mar: 12 de febrero"  
@@ -57,17 +90,17 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 ### Acto 2 – Primera Infiltración Nocturna
 - Por la noche caminas por pasillos hasta el despacho, esquivando guardias y cámaras (introducción al sigilo; si te pillan, checkpoint)  
 - Al llegar al despacho, introduces el código y te cuelas; Alejandro te está esperando dentro  
-- En la mesa ves un archivador del que sobresale un papel con tu nombre, en la portada pone "Proyecto confidencial G.A.D.I.R". Justo cuando lo vas a abrir, escuchas un ruido y escapas (puedes implementar decisiones que cambien el resultado)  
+- En la mesa ves un archivador del que sobresale un papel con tu nombre, en la portada pone "Proyecto confidencial G.A.D.I.R". Justo cuando lo vas a abrir, escuchas un ruido y escapas (implementar decisiones que cambien el resultado)  
 - Vas a la habitación a dormir, perturbado por el archivador  
 
 **Checkpoint**
 
 ### Acto 3 – Muerte de la Anciana
 - Al día siguiente el director te convoca a su despacho; crees que es porque te pillaron  
-- Resulta que te da la noticia de que Pepa, la anciana que te rescató, está a punto de fallecer  
+- Resulta que te da la noticia de que Pepa, la anciana que te rescató de la inundación, está a punto de fallecer  
 - Vas a verla al hospital o su habitación, hablas con ella, te cuenta algunas cosas y te entrega una nota  
 - La anciana fallece  
-- Vuelves a tu cuarto, melancólico, miras por la ventana, abres la nota y ves un mensaje del tipo: "Descubre la verdad, no todo lo que ves es cierto". Mientras miras por la ventana, el paisaje natural parece glitchar por un segundo... ¿ha sido una ilusión o un holograma?
+- Vuelves a tu cuarto, melancólico, miras por la ventana, abres la nota y ves un mensaje del tipo: "Descubre la verdad, no todo lo que ves es cierto". Mientras miras por la ventana, el paisaje natural parece glitchar por un segundo... ¿ha sido una ilusión o es que el paisaje que llevas toda la vida viendo es una falsa?
 
 **Fin de la demo**
 
@@ -164,8 +197,8 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 
 ## Requerimientos Técnicos (por completar)
 
+- Motor: Godot  
 - Resolución, frame rate objetivo  
-- Motores o frameworks a usar (Unity, Godot, Unreal…)  
 - Plataformas y dispositivos soportados  
 - Límites técnicos (número de enemigos, tamaño de niveles…)  
 
@@ -180,9 +213,89 @@ Rafael crece creyendo que sus padres fallecieron en la catástrofe, aunque siemp
 
 ---
 
-## Extra (por completar)
+## PostProducción (por completar)
 
 - Marketing / monetización (si es comercial)  
 - Analíticas y métricas de éxito  
 - Referencias visuales o moodboards  
 - Testeo y plan de feedback
+
+---
+
+## Controles / Input
+
+- **Teclado / XBOX Controller:**  
+  - Movimiento: flechas, WASD / stick izquierdo  
+  - Agacharse: Ctrl / B  
+  - Interactuar: E / A  
+  - Abrir inventario: Q / Y  
+  - Usar objeto rápido: 1-3 / X (Cambiar con LB, RT)  
+  - Menú: TAB / menu  
+  - UI: ratón / joystick
+
+---
+
+## Personajes (Tamaño y Animaciones)
+
+- **Tamaño:** 32×64 px  
+- **Orientaciones:** lado, frente, espalda  
+- **Animaciones:**
+  - Idle  
+  - Waiting  
+  - Caminar (izq/der/frente/espalda)  
+  - Agacharse y andar agachado (sigilo)  
+  - Interacción (abrir puerta, recoger objetos)  
+  - Extra: Correr, Tumbarse y arrastrarse, Empujar (ExPMV)  
+
+---
+
+## Entorno / Escenario
+
+- **Aspect ratio:** 16:9  
+- **Resolución:** 320×180 px  
+- **Escalado:** Pixel perfect (x4, x5, etc.)  
+- **Capas de profundidad:** UI, foreground, midground (personajes y objetos), background, far background  
+- **Tipos de tiles o bloques:** suelo, paredes, plataformas, escaleras  
+
+---
+
+## Arquitectura de datos / Save System
+
+- Guardado de progreso: checkpoints por sala o eventos narrativos importantes  
+- Inventario: lista de objetos recogidos y slots usados  
+- Documentos leídos: flags para mostrar en menú de documentos  
+- Estados de NPCs: posición, patrón de guardia, interacción realizada  
+- Variables de eventos narrativos: puntos de giro activados, cinemáticas vistas  
+
+---
+
+## Tilesets y Layering Detallado
+
+- Lista de tiles definitivos (suelo, paredes, escaleras, props)  
+- Capas: foreground, midground, background, far background  
+- Colisiones: tiles sólidos vs decorativos  
+- Clipping: zonas donde el personaje puede pasar por detrás/encima de objetos  
+
+---
+
+## Producto Mínimo Viable
+
+### Mecánicas Incluidas PMV
+- Movimiento 4 ejes  
+- Sistema básico de sigilo  
+- 1 tipo de guardia  
+- 1 objeto clave: linterna  
+- Inventario simple  
+- Sistema de documentos  
+- Transiciones entre salas  
+- Interacción con NPCs
+
+### Mecánicas Excluidas para PMV
+- Sobornos, economía compleja, persecuciones, tumbarse, múltiples tipos de enemigos, sistema avanzado de ruido e iluminación, mapa grande  
+
+### Lista completa de Assets PMV
+- **Personajes:** Rafael, anciana, 1 guardia, 2 NPC genéricos  
+- **Props / Objetos:** linterna, llaves, documentos, muebles  
+- **UI:** HUD con slots, inventario, texto de interacción, menú de documentos  
+- **Animaciones cortas:** caminar, agacharse, andar agachado, interactuar, idle, waiting  
+- **Mapa mínimo necesario:** Dormitorio, Pasillo principal, Comedor / zona común, Aula, Oficina administrativa (restringida), Habitación de la anciana / hospital
