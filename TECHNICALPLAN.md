@@ -81,7 +81,7 @@
 
 ## Producto Mínimo Viable (PMV)
 
-### Desarrollo Narrativo 
+### Desarrollo Narrativo PMV
 
 **Acto 1 – Rutina**  
 - Zona común del centro (aula, comedor, pasillo, dormitorio)  
@@ -99,7 +99,7 @@
 **Punto de Giro:** muerte de la anciana y nota que invita a buscar la verdad  
 **Cierre:** Rafael mirando por la ventana; simulación glitchea; pantalla en negro
 
-### Mecánicas Incluidas
+### Mecánicas Incluidas PMV
 - Movimiento 4 ejes  
 - Sistema básico de sigilo  
 - 1 tipo de guardia  
@@ -112,7 +112,7 @@
 ### Mecánicas Excluidas para PMV
 - Sobornos, economía compleja, persecuciones, tumbarse, múltiples tipos de enemigos, sistema avanzado de ruido e iluminación, mapa grande  
 
-## Lista completa de Assets PMV
+### Lista completa de Assets PMV
 
 - **Personajes:** Rafael, anciana, 1 guardia, 2 NPC genéricos  
 - **Props / Objetos:** linterna, llaves, documentos, muebles  
