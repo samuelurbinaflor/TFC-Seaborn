@@ -6,7 +6,7 @@ Su función es definir el ritmo, la atmósfera y el impacto emocional de cada es
 
 ---
 
-# ESCENA 1 - *Cinemática*
+## ESCENA 1 - *Cinemática*
 [Plano cerrado de una televisión. La cámara se va acercando lentamente a la televisión, la imagen y el entorno cambian constantemente, mostrando fragmentos de noticias de todo el mundo.]
 
 En pantalla aparecen noticias de distintas catástrofes naturales por todo el mundo: inundaciones, incendios, tornados, terremotos, sequías extremas.
@@ -18,7 +18,9 @@ Entre el caos del audio se escuchan claramente frases como:
 - Nombres de ciudades y catástrofes naturales
 - Víctimas, desaparecidos, etc.
 
-# ESCENA 2 - *Cinemática*
+---
+
+## ESCENA 2 - *Cinemática*
 [Sonido de viento y marea]  
 [Pantalla negra]  
 “Año 2100 - Cádiz, España”
@@ -56,7 +58,9 @@ Amén
 
 [Pantalla en negro]
 
-# ESCENA 3 - *Cinématica + gameplay*
+---
+
+## ESCENA 3 - *Cinématica + gameplay*
 [Plano dron sobrevolando Cádiz todo inundado]  
 [Sonido de máquina de escribir o de código morse]  
 “Año 2117, Diecisiete años desde la catástrofe”
