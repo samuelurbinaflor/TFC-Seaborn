@@ -1,5 +1,7 @@
 # Narrative Design Document (NDG) – TFC Videojuego: Seaborn
 
+Este documento recoge el diseño narrativo del videojuego **Seaborn**, detallando su historia, contexto, personajes, temas y estructura dramática. Su objetivo es servir como guía creativa y técnica para el desarrollo del proyecto, asegurando coherencia narrativa, profundidad emocional y una experiencia inmersiva para el jugador.
+
 # Índice NDG – Seaborn
 
 - [Historia del Juego](#historia-del-juego)
