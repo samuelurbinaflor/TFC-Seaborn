@@ -81,8 +81,14 @@ Te levantas, recoges tus cosas y ya puedes moverte.
 ---
 
 ## ESCENA FINAL DEMO - *Cinemática*
+La anciana le entrega una nota a Rafael, este la coge y se la guarda en el bolsillo, ella intenta decir algo, pero no sale palabra de su boca. Tras unos segundos de silencio donde solo se escucha el constante latir de la máquina, la anciana fallece.
+
+[Se escucha el piii de la muerte]
+
+Rafael sale aturdido de la sala, tambaleandose, llega a su cuarto y abre la ventana.
 
 [Empieza a sonar el tema "La Caña"]
+
 Rafael se encuentra de pie junto a la ventana de su habitación. Por la ventana se puede ver perfectamente Cádiz inundada, la catedral sobresale del agua y de fondo se ve el puente nuevo. 
 Sincronizado con la música, en el segundo 0:06, cuando se escucha el efecto de glitch, el paisaje de Cádiz parpadea, dejando ver por un segundo, Cádiz intacta.
 
