@@ -76,3 +76,21 @@ El video del plano del dron pasa de estar en pantalla completa a verse desde una
 Te levantas, recoges tus cosas y ya puedes moverte.
 
 (Ahora vendrían algunos momentos donde manejas al personaje pero a modo de tutorial, aprendes a moverte, a interactuar con personas, recoger objetos, abrir puertas)
+
+
+---
+
+## ESCENA FINAL DEMO - *Cinemática*
+
+[Empieza a sonar el tema "La Caña"]
+Rafael se encuentra de pie junto a la ventana de su habitación. Por la ventana se puede ver perfectamente Cádiz inundada, la catedral sobresale del agua y de fondo se ve el puente nuevo. 
+Sincronizado con la música, en el segundo 0:06, cuando se escucha el efecto de glitch, el paisaje de Cádiz parpadea, dejando ver por un segundo, Cádiz intacta.
+
+En el segundo 0:12 se escucha el late motive, ahí cambia la escena.
+
+El protagonista saca de su bolsillo la nota que le entregó Pepa, la abre y la lee.
+
+[Cambia el plano a un primer plano de la nota]
+
+[PANTALLA EN NEGRO - En el segundo 0:26 justo antes de que se escuche la guitarra con el efecto de radio, cuando termina este riff, pasa a los créditos]
+
