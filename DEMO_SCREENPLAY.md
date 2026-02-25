@@ -6,7 +6,7 @@ Su función es definir el ritmo, la atmósfera y el impacto emocional de cada es
 
 ---
 
-## ESCENA 1 - *Cinemática*
+## ESCENA 1 - *Cinemática - Televisión*
 [Plano cerrado de una televisión. La cámara se va acercando lentamente a la televisión, la imagen y el entorno cambian constantemente, mostrando fragmentos de noticias de todo el mundo.]
 
 En pantalla aparecen noticias de distintas catástrofes naturales por todo el mundo: inundaciones, incendios, tornados, terremotos, sequías extremas.
@@ -22,10 +22,10 @@ El final del audio dice:
 
 ---
 
-## ESCENA 2 - *Cinemática*
+## ESCENA 2 - *Cinemática - Radio*
 [Sonido de viento y marea]  
 [Pantalla negra]  
-“Año 2100 - Cádiz, España”
+“Año 2067 - Cádiz, España”
 
 [Narrador de noticias radio]  
 Estamos todos preparados para la catástrofe. Sigan los protocolos de evacuación. 
@@ -63,22 +63,115 @@ Amén
 ---
 
 ## ESCENA 3 - *Cinématica + gameplay*
-[Plano dron sobrevolando Cádiz todo inundado]  
-[Sonido de máquina de escribir o de código morse]  
-“Año 2117, Diecisiete años desde la catástrofe”
+[Plano dron sobrevolando Cádiz completamente inundada. Edificios sobresaliendo del agua como esqueletos. El mar está en calma, pero muerto. No hay barcos, no hay aves, no hay vida.]
+[Sonido lejano de máquina de escribir.]
 
-El video del plano del dron pasa de estar en pantalla completa a verse desde una televisión/proyector, la vista pasa a ser en tercera persona donde ya, como jugador, estás en una sala que parece un aula con más alumnos de tu edad y el profesor.
+Texto en pantalla:
+“Año 2067 — Diecisiete años desde la catástrofe”
 
-**Profesor:** y es por eso, que no es seguro salir de aquí
+La cámara desciende lentamente hacia una estructura colosal emergiendo del agua: una mega-instalación costera, fría, geométrica, brutalista.
+La imagen pasa a verse desde una televisión/proyector.
 
-[Suena el timbre de final de clase]
+Se revela un aula luminosa, con decenas de estudiantes sentados en pupitres metálicos, perfectamente alineados. Todos visten uniforme blanco, neutro, con las siglas del C.O.A.C y una banda de color en el brazo diferente a la que viste el profesor.
 
-**Profesor:** bueno chicos, para mañana ya sabéis, tenéis que aprenderos el “rezo” y tendréis un examen (no lo quiero llamar así pero quiero que sea algo sectario rollo las normas del COAC o algo así)
+La cámara se sitúa detrás del protagonista (Rafael). Primera vez que vemos su silueta.
 
-Te levantas, recoges tus cosas y ya puedes moverte.
+En la pared, una proyección muestra imágenes históricas de la catástrofe, mapas, gráficos, cifras de mortalidad.
 
-(Ahora vendrían algunos momentos donde manejas al personaje pero a modo de tutorial, aprendes a moverte, a interactuar con personas, recoger objetos, abrir puertas)
+Profesor:
+— Y es por eso que, desde el 12 de febrero de 2050, el exterior es considerado zona muerta. Ningún ser humano puede sobrevivir ahí fuera sin comprometer la estabilidad genética de la especie.
 
+[En la pantalla aparece el texto: PROTOCOLO DE AISLAMIENTO GLOBAL – G.A.G.]
+
+Profesor:
+— Nuestra misión es preservar la humanidad.
+
+[Elección de texto]
+- Preguntar por supervivientes: "Pero Señor, cómo es posible? Somos los unicos supervivientes en todo el planeta? Alguien más tiene que haber sobrevivido!"
+- Preguntar por x
+- No decir nada
+
+[Silencio absoluto en la clase.]
+
+Profesor:
+— Rafael... Ya deberías saberlo... Fuera no queda nada.
+
+[Suena el timbre.]
+
+Todos los alumnos se levantan al unísono.
+El jugador recupera control.
+
+#### Gameplay introductorio
+Pequeña exploración dentro del aula:
+- Puedes mirar a tus compañeros. Todos evitan el contacto visual.
+- Algunos murmuran fragmentos del “rezo”.
+
+En la pared hay carteles propagandísticos:
+- “Somos los ÚNICOS supervivientes del planeta, futuro de la humanidad”
+- “Fuera no queda nada"
+- "C.O.A.C 2000-2067"
+- "El exterior no puede hacerte daño"
+- "Por nuestro fundador *Rafael Alberti?*"
+
+## ESCENA 4 - *Tutorial*
+No va a ser un tutorial como tal, sino un gameplay sencillo donde aprendas las mecánicas básicas del juego:
+- Movimiento básico 2.5D
+- Interactuar con objetos y puertas
+- Inventario, acceso rápido y galería de documentos
+  
+Zonas:
+- Aula
+- Pasillo principal
+- Comedor
+- Zona de dormitorios
+- Dormitorio de Rafael
+
+Desarrollo:
+1. Pasillo principal
+Luces blancas, frías, constantes zumbidos eléctricos.
+Guardias armados parados frente a puertas de acceso restrignido y patrullando.
+Trabajadores con trajes blancos con diferentes bandas de color pasean alrededor.
+Altavoces emiten frases automáticas de lealtad y compromiso cada cierto tiempo.
+
+2. Comedor
+Espacio gigantesco con filas interminables de mesas metálicas. Se escucha el tintinear de los cubiertos y murmullo.
+Todos comen exactamente la misma ración.
+
+Alejandro (sentándose contigo):
+— Mi abuelo decía que Cádiz olía a sal…
+
+3. Pasillo de dormitorios
+Puertas numeradas. Sin nombres.
+Cámaras en cada esquina.
+
+En tu habitación hay:
+Una cama, un pequeño escritorio
+Una foto vieja y borrosa de una anciana con un bebé (no se explica aún)
+Un calendario: 17 de ocubre como dia actual, 28 de octubre marcado (cumpleaños)
+
+
+## ESCENA x - *Infiltración en el despacho del director, tutorial de sigilo*
+El 28 de octubre Rafael cumple 18 años, esa noche, su amigo Alejandro le propone infiltrarse en el despacho del director por la noche. Te comenta que ha estado presenciando cosas extrañas sucediendo ultimamente, cree que están tramando algo raro y te pide ayuda para investigar. 
+(Tal vez puedes decidir si ir o no:
+- Sí: Alejandro te acompaña en la aventura
+- No: Alejandro te deja una nota con un mapa o algo y con la frase "por si cambias de opinion, te espero alli a las 03:00. Código 0909" por ejemplo y acabas llendo igualmente)
+
+Esa noche, empieza la escena en tu habitación. Al salir, el centro se encuentra prácticamente a oscuras, solo hay algunas luces como de emergencia, tal vez una especie de luz de las cámaras que te permitan esquivarlas y las linternas de los guardias.
+
+A modo de *tutorial*, te encuentras con la primera cámara, te enseñan a agacharte y andar agachado por detras de un mostrador para que no te vea la cámara.
+Recoges algunos objetos irrelevantes por el camino
+Ahora te presentan el primer guardia, este tiene una rutina en bucle, aprendes a evitarlo y sigues avanzando
+
+El nivel sigue así cada vez poniendose más dificil. Finalmente llegas a la puerta del despacho del director. (O pones el código de alejandro o necesitas algo extra para entrar nose)
+
+Entras en el despacho y ya estás tranquilo para explorarlo, encuentras diferentes documentos y archivadores que puedes recoger, leer o hacer foto?
+
+## ESCENA x - *Cinemática archivador*
+Ves un archivador en la mesa del director que te llama la atención, en la portada puedes leer escrito "Proyecto Confidencial G.A.D.I.R" las siglas de "Generación Aislada de Desarrollo Identitario Restringido"
+Del archivador sobresale un documento con tus datos, lo sacas un poco y puedes leer tus datos y cosas como:
+- Sujeto Nº 43428543
+- Fecha de cautividad: 9 febrero de 2050 (pocos días antes de la catástrofe)
+- Potencial: muy bueno
 
 ---
 
