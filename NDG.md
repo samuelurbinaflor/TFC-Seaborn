@@ -109,6 +109,38 @@ A través de las ventanas solo se observa una Cádiz completamente inundada, sin
 
 ---
 
+## Personajes
+
+### Protagonista
+- **Nombre:** Rafael Azara Flores  
+- **Fecha de nacimiento:** 28 de octubre de 2049  
+- **Signo Zodiacal:** Escorpio  
+- **Edad actual:** 17 años (cumple 18 en el juego)  
+- **Carácter:** intenso, apasionado, curioso, intuitivo, desconfiado pero leal, sensible, empático, rebelde e impulsivo  
+
+### Antagonista
+- **Nombre:** Josefa (Pepa)  
+- **Fecha de nacimiento:** 19 de marzo de 1984  
+- **Signo Zodiacal:** Piscis  
+- **Edad actual:** 83  
+- **Carácter:** astuta y manipuladora, moral ambigua, aparenta ser protectora pero sigue órdenes del COAC, dominante  
+
+Pepa es hija de uno de los fundadores del COAC, lo que la vinculó al proyecto desde una edad muy temprana (16 años). Creció dentro del entorno institucional, asimilando su ideología y objetivos como propios. Esta herencia la convirtió en una firme defensora del centro durante gran parte de su vida, aunque con el paso de los años lo que empezó siendo un proyecto de buenas intenciones, cambió por completo su deriva ética lo que le hizo desarrollar un profundo sentimiento de culpa.
+
+Su conflicto interno nace de la tensión entre la lealtad al legado de su padre y la conciencia de haber contribuido activamente a un sistema de control y experimentación humana.
+
+### Amigo
+- **Nombre:** Alejandro Ortega Ramos  
+- **Fecha de nacimiento:** 30 de noviembre de 2047  
+- **Edad actual:** 19 años  
+- **Carácter:** aventurero, curioso, optimista, motivador, directo, protector  
+
+### NPCs Secundarios
+- Niños del COAC: compañeros de edad similar que interactúan con Rafael  
+- Científicos / guardias del COAC: autoridades del centro, sirven como obstáculos o fuentes de información  
+
+---
+
 ## Arcos de Personaje
 
 ### Arco de Rafael
@@ -143,37 +175,6 @@ El objetivo es que el jugador viva los descubrimientos y dilemas junto a los per
 
 ---
 
-## Personajes
-
-### Protagonista
-- **Nombre:** Rafael Azara Flores  
-- **Fecha de nacimiento:** 28 de octubre de 2049  
-- **Signo Zodiacal:** Escorpio  
-- **Edad actual:** 17 años (cumple 18 en el juego)  
-- **Carácter:** intenso, apasionado, curioso, intuitivo, desconfiado pero leal, sensible, empático, rebelde e impulsivo  
-
-### Antagonista
-- **Nombre:** Josefa (Pepa)  
-- **Fecha de nacimiento:** 19 de marzo de 1984  
-- **Signo Zodiacal:** Piscis  
-- **Edad actual:** 83  
-- **Carácter:** astuta y manipuladora, moral ambigua, aparenta ser protectora pero sigue órdenes del COAC, dominante  
-
-Pepa es hija de uno de los fundadores del COAC, lo que la vinculó al proyecto desde una edad muy temprana (16 años). Creció dentro del entorno institucional, asimilando su ideología y objetivos como propios. Esta herencia la convirtió en una firme defensora del centro durante gran parte de su vida, aunque con el paso de los años lo que empezó siendo un proyecto de buenas intenciones, cambió por completo su deriva ética lo que le hizo desarrollar un profundo sentimiento de culpa.
-
-Su conflicto interno nace de la tensión entre la lealtad al legado de su padre y la conciencia de haber contribuido activamente a un sistema de control y experimentación humana.
-
-### Amigo
-- **Nombre:** Alejandro Ortega Ramos  
-- **Fecha de nacimiento:** 30 de noviembre de 2047  
-- **Edad actual:** 19 años  
-- **Carácter:** aventurero, curioso, optimista, motivador, directo, protector  
-
-### NPCs Secundarios
-- Niños del COAC: compañeros de edad similar que interactúan con Rafael  
-- Científicos / guardias del COAC: autoridades del centro, sirven como obstáculos o fuentes de información  
-
----
 
 ## Anexo I: Referencias internas y simbólicas
 - **Fecha de la catástrofe:** 12 de febrero de 2050 (fecha de inicio del Carnaval de Cádiz)  
