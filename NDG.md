@@ -74,6 +74,16 @@ En 2050, la supuesta catástrofe que habría inundado la ciudad de Cádiz (la cu
 
 Desde entonces y hasta 2067, el COAC ha operado como una institución cerrada, hermética y altamente vigilada, dedicada plenamente a la experimentación social, la manipulación psicológica y el control total de sus residentes.
 
+## Juramento de Salvaguarda
+Este juramento es como el rezo del COAC, todos los días suena por los altavoces del centro almenos 2 veces y todos deben parar de hacer lo que están haciendo para rezarlo.
+
+*"El mar se alzó sobre la ciudad, vivimos gracias a la bondad de nuestro fundador
+
+Por su visión y su Centro, prometemos obedecer y entregarnos en vida por la salvacion de la humanidad.
+
+Gracias al padre fundador. 
+Nuestra lealtad será eterna."*
+
 ---
 
 ## Desarrollo Narrativo (DEMO)
