@@ -12,11 +12,13 @@ Su función es definir el ritmo, la atmósfera y el impacto emocional de cada es
 En pantalla aparecen noticias de distintas catástrofes naturales por todo el mundo: inundaciones, incendios, tornados, terremotos, sequías extremas.
 
 El audio es caótico. Voces superpuestas. La imagen y el sonido cambian cada pocos segundos.
+La cámara se va acercando a la pantalla, a medida que esto ocurre, la imagen se vuelve cada vez más borrosa.
 
-Entre el caos del audio se escuchan claramente frases como:
-- El cambio climático
-- Nombres de ciudades y catástrofes naturales
-- Víctimas, desaparecidos, etc.
+El final del audio dice:
+"La furia de la madre naturaleza, quedó plasmada en el país"
+
+[Pantalla en negro]
+"Podría tener gravísimas consecuencias para la humanidad"
 
 ---
 
