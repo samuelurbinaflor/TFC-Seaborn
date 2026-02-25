@@ -184,12 +184,14 @@ Rafael sale aturdido de la sala, tambaleandose, llega a su cuarto y abre la vent
 
 [Empieza a sonar el tema "La Caña"]
 
-Rafael se encuentra de pie junto a la ventana de su habitación. Por la ventana se puede ver perfectamente Cádiz inundada, la catedral sobresale del agua y de fondo se ve el puente nuevo. 
+Rafael se encuentra de pie junto a la ventana de su habitación. Por la ventana se puede ver perfectamente Cádiz inundada, la catedral sobresale del agua.
 Sincronizado con la música, en el segundo 0:06, cuando se escucha el efecto de glitch, el paisaje de Cádiz parpadea, dejando ver por un segundo, Cádiz intacta.
 
 En el segundo 0:12 se escucha el late motive, ahí cambia la escena.
 
 El protagonista saca de su bolsillo la nota que le entregó Pepa, la abre y la lee.
+En la pantalla va apareceiendo fragmentos de la nota, antes de que se vea por completo, a los laterales, en difuso, otrs documentos extraños que ha ido encontrando el protagonista, como el archivador del proyecto Gadir.
+Finalmente aparece la nota al completo pero te ha dado tiempo de leerlo todo antes.
 
 [Cambia el plano a un primer plano de la nota]
 
