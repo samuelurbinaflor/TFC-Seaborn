@@ -23,6 +23,7 @@ z_index = 5
 position = Vector2(193, 142)
 
 [node name="pared" type="StaticBody2D" parent="GAME"]
+visible = false
 collision_layer = 2
 
 [node name="Sprite2D" type="Sprite2D" parent="GAME/pared"]

@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-const SPEED = 50.0
+var SPEED = 70.0
 const WAITING_TIME = 5.0
 
 @onready var sprite = $AnimatedSprite2D
@@ -8,6 +8,7 @@ const WAITING_TIME = 5.0
 # --- State machine ---
 var current_state = "idle"
 var idle_timer = 0.0
+var is_crouching = false
 
 # Guarda la última dirección
 var last_direction = Vector2(0, 1) # mirando hacia abajo por defecto
@@ -19,8 +20,9 @@ func _physics_process(delta: float) -> void:
 		Input.get_axis("ui_left", "ui_right"),
 		Input.get_axis("ui_up", "ui_down")
 	)
-
-	var is_crouching := Input.is_action_pressed("shift")
+	
+	if Input.is_action_just_released("shift"):
+		is_crouching = !is_crouching
 
 	# Normalizar diagonal
 	if input_vector != Vector2.ZERO:
@@ -89,9 +91,12 @@ func waiting_state(delta, input_vector, is_crouching):
 
 
 func crouch_state(input_vector, is_crouching):
-
+	if is_crouching: 
+		SPEED = 20.0
 	if not is_crouching:
 		current_state = "idle"
+		SPEED = 70.0
+		
 
 
 # --- ANIMACIONES ---
@@ -103,7 +108,7 @@ func update_animation(input_vector: Vector2, is_crouching: bool):
 	if input_vector.x != 0:
 
 		if is_crouching:
-			anim_name = "crouch_side"
+			anim_name = "crouch_walk_side"
 		else:
 			anim_name = "walk_side"
 
@@ -122,7 +127,7 @@ func update_animation(input_vector: Vector2, is_crouching: bool):
 		if current_state == "waiting":
 			anim_name = "waiting"
 		elif last_direction.x != 0:
-			anim_name = "crouch_side" if is_crouching else "idle_side"
+			anim_name = "crouch_idle_side" if is_crouching else "idle_side"
 			sprite.flip_h = last_direction.x < 0
 
 		elif last_direction.y < 0:
