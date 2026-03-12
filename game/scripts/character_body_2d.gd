@@ -118,9 +118,15 @@ func update_animation(input_vector: Vector2, is_crouching: bool):
 	elif input_vector.y != 0:
 
 		if input_vector.y < 0:
-			anim_name = "walk_up" if current_state == "walk" else "idle_up"
+			if is_crouching:
+				anim_name = "crouch_walk_up"
+			else:
+				anim_name = "walk_up" if current_state == "walk" else "idle_up"
 		else:
-			anim_name = "walk_down" if current_state == "walk" else "idle_down"
+			if is_crouching:
+				anim_name = "crouch_walk_down"
+			else:
+				anim_name = "walk_down" if current_state == "walk" else "idle_down"
 
 
 	else:
