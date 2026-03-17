@@ -14,7 +14,7 @@ size = Vector2(320, 142)
 
 [node name="CharacterBody2D" parent="GAME" instance=ExtResource("2_pp6wt")]
 z_index = 5
-position = Vector2(193, 142)
+position = Vector2(171, 84)
 
 [node name="pared" type="StaticBody2D" parent="GAME"]
 visible = false
