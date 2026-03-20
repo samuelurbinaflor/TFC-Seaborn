@@ -1,7 +1,6 @@
 # Ideación y análisis de mercado – TFC Videojuego: Seaborn
 
----
-## 📑 Índice
+## Índice
 
 - [Pitch](#pitch)  
 - [Género](#género)  
