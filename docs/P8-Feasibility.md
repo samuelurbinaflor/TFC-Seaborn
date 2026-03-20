@@ -2,6 +2,18 @@
 
 ---
 
+## Índice – Estudio de Viabilidad Seaborn
+
+- [Objetivos del proyecto](#objetivos-del-proyecto)
+- [Enfoque de diseño y éxito](#enfoque-de-diseño-y-éxito)
+- [Análisis DAFO](#análisis-dafo)
+- [Estimación de recursos y costes](#estimación-de-recursos-y-costes)
+- [Estimación de costes](#estimación-de-costes)
+- [Viabilidad del proyecto](#viabilidad-del-proyecto)
+- [Escenario de ingresos](#escenario-de-ingresos)
+- [Control de calidad](#control-de-calidad)
+- [Costes de publicación](#costes-de-publicación)
+- [Financiación](#financiación)
 
 ---
 
@@ -99,7 +111,7 @@ El proyecto es **viable** debido a:
 
 ---
 
-# Control de calidad
+## Control de calidad
 
 Para garantizar la calidad del proyecto:
 
@@ -122,19 +134,19 @@ Para garantizar la calidad del proyecto:
 
 ---
 
-# Costes de publicación
+## Costes de publicación
 
-## Steam
+### Steam
 - Cuota de publicación: **100$ (~95€)**  
 - Recuperable si el juego genera más de 100$  
 
-## Itch.io
+### Itch.io
 - Publicación gratuita  
 - Comisión opcional (configurable por el desarrollador)  
 
 ---
 
-# Financiación
+## Financiación
 
 Opciones para financiar el proyecto:
 
