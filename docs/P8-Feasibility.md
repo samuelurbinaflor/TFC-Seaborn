@@ -1,6 +1,5 @@
 # Estudio de Viabilidad – TFC Videojuego: Seaborn
 
----
 
 ## Índice – Estudio de Viabilidad Seaborn
 
