@@ -1,6 +1,22 @@
 # Market Research – TFC Videojuego: Seaborn
 
 ---
+## 📑 Índice
+
+- [Pitch](#pitch)  
+- [Género](#género)  
+- [Personajes principales](#personajes-principales)  
+- [Historia y ambientación](#historia-y-ambientación)  
+- [Objetivo del juego](#objetivo-del-juego)  
+- [Jugabilidad](#jugabilidad)  
+- [Público objetivo](#público-objetivo)  
+- [Diferenciación](#diferenciación)  
+- [Tiempo de desarrollo estimado](#tiempo-de-desarrollo-estimado)  
+- [Monetización](#monetización)  
+- [Análisis de mercado](#análisis-de-mercado)  
+- [Buyer Persona](#buyer-persona)  
+- [Estrategia de comunicación](#estratregia-de-comunicación)  
+- [Desarrollo](#desarrollo)  
 
 ## Pitch
 _Separado de su familia desde bebé, Rafael crece en un centro aislado bajo estrictas reglas. Lo único que conoce del exterior son los libros de historia, que hablan de un mundo devastado por catástrofes naturales. Un evento inesperado le hace cuestionarse todo lo que conoce. Explora el centro, infíltrate en zonas prohibidas y descubre la verdad que oculta el lugar al que llamas hogar._
