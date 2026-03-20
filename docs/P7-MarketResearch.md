@@ -225,20 +225,93 @@ Para encajar en el mercado objetivo, el juego debe:
 ## Desarrollo
 
 ### Producción
-- Motor: Godot  
-- Desarrollo por módulos
+
+El desarrollo de *Seaborn* se plantea con un enfoque **iterativo y modular**, centrado en construir primero una base jugable sólida antes de escalar el contenido.
+
+Se utilizará **Godot** como motor principal por su flexibilidad en 2D y su eficiencia para proyectos indie.
+
+#### Enfoque de producción:
+- Desarrollo por **salas o módulos independientes**, permitiendo testear cada zona de forma aislada  
+- Implementación temprana de las **mecánicas core**:
+  - Movimiento  
+  - Sistema de sigilo (visión, ruido, luz)  
+  - Interacción básica  
+- Integración progresiva de narrativa (documentos, eventos, NPCs)  
+- Uso de **placeholders** iniciales para priorizar jugabilidad sobre arte  
+
+#### Fases de producción:
+1. **Prototipo**
+   - Movimiento y sigilo funcional  
+   - Primer escenario jugable  
+   - Testeo interno  
+
+2. **Vertical Slice (Demo)**
+   - Una experiencia completa representativa  
+   - Introducción narrativa (Acto 1 + parte del Acto 2)  
+   - Arte y audio cercanos al final  
+
+3. **Producción completa**
+   - Expansión de niveles  
+   - Integración narrativa total  
+   - Pulido de mecánicas  
+
+4. **Pulido final**
+   - Corrección de bugs  
+   - Mejora de UX/UI  
+   - Ajuste de ritmo narrativo  
 
 ---
 
 ### Publicación
-- Plataforma: Steam, Itch.io
-- Uso de demo previa  
-- Estrategia basada en wishlist  
+
+La estrategia de publicación se centrará en maximizar visibilidad dentro del mercado indie sin depender de grandes inversiones.
+
+#### Plataformas:
+- **Steam (principal)**  
+- **Itch.io (secundaria, comunidad indie)**  
+
+#### Estrategia de lanzamiento:
+- Publicación previa de una **demo gratuita**  
+- Creación de página de Steam con antelación para generar **wishlist**  
+- Lanzamiento acompañado de:
+  - Trailer corto y directo  
+  - Material visual atractivo (GIFs, clips)  
+
+#### Marketing:
+- Desarrollo abierto mediante **devlogs** en redes sociales  
+- Publicación de clips centrados en:
+  - Estética  
+  - Sigilo  
+  - Momentos narrativos  
+
+- Participación en eventos indie online  
+
+#### Objetivo principal:
+Generar interés progresivo antes del lanzamiento en lugar de depender únicamente del día de salida.
 
 ---
 
 ### Gestión
-- Roadmap definido  
-- Iteración continua  
-- Testeo constante  
-- Control del alcance del proyecto  
+
+La gestión del proyecto se enfocará en mantener un desarrollo **realista, controlado y sostenible**, evitando el aumento descontrolado del alcance.
+
+#### Organización del trabajo:
+- Uso de github como herramienta de planificación 
+- División de tareas en bloques pequeños y alcanzables  
+- Priorización de mecánicas esenciales sobre contenido extra  
+
+#### Metodología:
+- Enfoque **ágil** con iteraciones cortas  
+- Revisión continua del progreso  
+- Adaptación en función de problemas o feedback  
+- Definición clara del **Producto Mínimo Viable (MVP)**  
+
+#### Testeo:
+- Pruebas internas constantes  
+- Feedback de jugadores externos en fase demo  
+- Ajustes en función de la experiencia del usuario  
+
+#### Gestión de riesgos:
+- Reducción de complejidad técnica  
+- Reutilización de sistemas y assets  
+- Planificación flexible ante imprevistos  
