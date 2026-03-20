@@ -1,4 +1,4 @@
-# Market Research – TFC Videojuego: Seaborn
+# Ideación y análisis de mercado – TFC Videojuego: Seaborn
 
 ---
 ## 📑 Índice
