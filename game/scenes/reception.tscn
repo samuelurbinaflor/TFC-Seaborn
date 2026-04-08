@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://djcg3nfk7i870"]
+
+[ext_resource type="Texture2D" uid="uid://cdc6xeqh6mace" path="res://game/assets/ESCENARIO/recepcion.png" id="1_bls4c"]
+
+[node name="reception" type="Node2D"]
+
+[node name="Recepcion" type="Sprite2D" parent="."]
+scale = Vector2(0.26392967, 0.2639296)
+texture = ExtResource("1_bls4c")
+centered = false

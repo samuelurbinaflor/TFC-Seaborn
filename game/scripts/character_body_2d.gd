@@ -18,7 +18,18 @@ var is_interacting = false
 # Guarda la última dirección
 var last_direction = Vector2(0, 1)
 
+#Tamaño del sprite
+@export var min_scale: float = 1.0
+@export var max_scale: float = 5.0
+@export var max_y: float = 150.0
 
+func _process(delta: float) -> void:
+		
+	var base_y = 95.0
+	var t = clamp((position.y - base_y) / max_y, 0.0, 1.0)
+	var scale_value = lerp(min_scale, max_scale, t)
+	sprite.scale = Vector2(scale_value, scale_value)
+	
 func _physics_process(delta: float) -> void:
 
 	# -------------------------
@@ -56,6 +67,7 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
+	
 	match current_state:
 		"idle":
 			idle_state(delta, input_vector)

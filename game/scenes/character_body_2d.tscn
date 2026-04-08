@@ -1,6 +1,6 @@
-[gd_scene load_steps=211 format=3 uid="uid://dy4tc70ogykhq"]
+[gd_scene load_steps=223 format=3 uid="uid://dy4tc70ogykhq"]
 
-[ext_resource type="Script" uid="uid://j7up0k81ccwt" path="res://game/scenes/anim.gd" id="1_sgs03"]
+[ext_resource type="Script" uid="uid://3njafifr355s" path="res://game/scripts/character_body_2d.gd" id="1_sgs03"]
 [ext_resource type="Texture2D" uid="uid://ncr3oa0lt14u" path="res://game/assets/anim.png" id="2_pdmrp"]
 [ext_resource type="Texture2D" uid="uid://bpm1cj7sg467j" path="res://game/assets/crouch_waiting.png" id="3_5f77j"]
 [ext_resource type="Texture2D" uid="uid://cla7ivn5wryh4" path="res://game/assets/animations/standing/walk/front/walk_front__0.png" id="4_ciu4a"]
@@ -331,25 +331,25 @@ region = Rect2(384, 128, 64, 64)
 atlas = ExtResource("2_pdmrp")
 region = Rect2(448, 128, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_w2dpf"]
-atlas = SubResource("CompressedTexture2D_pdmrp")
-region = Rect2(320, 128, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_sgs03"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(320, 64, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_j13cu"]
-atlas = SubResource("CompressedTexture2D_pdmrp")
-region = Rect2(256, 128, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_ciu4a"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(192, 64, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_1065c"]
-atlas = SubResource("CompressedTexture2D_pdmrp")
-region = Rect2(192, 128, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_tsohc"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(256, 64, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_dlxkf"]
-atlas = SubResource("CompressedTexture2D_pdmrp")
-region = Rect2(384, 128, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_kxnhd"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(384, 64, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_x82qw"]
-atlas = SubResource("CompressedTexture2D_pdmrp")
-region = Rect2(448, 128, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_o203v"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(448, 64, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8ako3"]
 atlas = SubResource("CompressedTexture2D_pdmrp")
@@ -720,28 +720,28 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_w2dpf")
+"texture": SubResource("AtlasTexture_sgs03")
 }, {
 "duration": 0.5,
-"texture": SubResource("AtlasTexture_j13cu")
+"texture": SubResource("AtlasTexture_ciu4a")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_1065c")
+"texture": SubResource("AtlasTexture_tsohc")
 }, {
 "duration": 0.5,
-"texture": SubResource("AtlasTexture_j13cu")
+"texture": SubResource("AtlasTexture_ciu4a")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_w2dpf")
+"texture": SubResource("AtlasTexture_sgs03")
 }, {
 "duration": 0.5,
-"texture": SubResource("AtlasTexture_dlxkf")
+"texture": SubResource("AtlasTexture_kxnhd")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_x82qw")
+"texture": SubResource("AtlasTexture_o203v")
 }, {
 "duration": 0.5,
-"texture": SubResource("AtlasTexture_dlxkf")
+"texture": SubResource("AtlasTexture_kxnhd")
 }],
 "loop": true,
 "name": &"walk_front",
@@ -781,113 +781,132 @@ animations = [{
 load_path = "res://.godot/imported/waiting_0.png-ac893d9d5977fbb2b875938b7796cfc0.ctex"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xik2w"]
-size = Vector2(14, 5)
+size = Vector2(9, 5)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_sgs03"]
-animation = &"crouch_b"
+animation = &"idle_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ciu4a"]
-animation = &"crouch_f"
+animation = &"idle_s"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_tsohc"]
-animation = &"crouch_s"
+animation = &"idle_s"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_kxnhd"]
-animation = &"crouch_s"
+animation = &"idle_f"
 
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_o203v"]
 blend_point_0/node = SubResource("AnimationNodeAnimation_sgs03")
 blend_point_0/pos = Vector2(0, 1)
 blend_point_1/node = SubResource("AnimationNodeAnimation_ciu4a")
-blend_point_1/pos = Vector2(0, -1)
+blend_point_1/pos = Vector2(1, 0)
 blend_point_2/node = SubResource("AnimationNodeAnimation_tsohc")
-blend_point_2/pos = Vector2(1, 0)
+blend_point_2/pos = Vector2(-1, 0)
 blend_point_3/node = SubResource("AnimationNodeAnimation_kxnhd")
-blend_point_3/pos = Vector2(-1, 0)
+blend_point_3/pos = Vector2(0, -1)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_foer3"]
-animation = &"walk_f"
+animation = &"interact_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_34spd"]
-animation = &"walk_f"
+animation = &"interact_s"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_34ml6"]
-animation = &"walk_s"
+animation = &"interact_f"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_umk30"]
-animation = &"walk_s"
+animation = &"interact_s"
 
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_m2eob"]
 blend_point_0/node = SubResource("AnimationNodeAnimation_foer3")
 blend_point_0/pos = Vector2(0, 1)
 blend_point_1/node = SubResource("AnimationNodeAnimation_34spd")
-blend_point_1/pos = Vector2(0, -1)
+blend_point_1/pos = Vector2(1, 0)
 blend_point_2/node = SubResource("AnimationNodeAnimation_34ml6")
-blend_point_2/pos = Vector2(1, 0)
+blend_point_2/pos = Vector2(0, -1)
 blend_point_3/node = SubResource("AnimationNodeAnimation_umk30")
 blend_point_3/pos = Vector2(-1, 0)
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_sgs03"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_trnrs"]
+animation = &"waiting"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_xdlmk"]
+animation = &"walk_b"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_haqwt"]
+animation = &"walk_f"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8heub"]
+animation = &"walk_s"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_d5oby"]
+animation = &"walk_s"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_4vv35"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_xdlmk")
+blend_point_0/pos = Vector2(0, 1)
+blend_point_1/node = SubResource("AnimationNodeAnimation_haqwt")
+blend_point_1/pos = Vector2(0, -1)
+blend_point_2/node = SubResource("AnimationNodeAnimation_8heub")
+blend_point_2/pos = Vector2(1, 0)
+blend_point_3/node = SubResource("AnimationNodeAnimation_d5oby")
+blend_point_3/pos = Vector2(-1, 0)
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_caeo5"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ciu4a"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dxuny"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_tsohc"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_g42u4"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_kxnhd"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0agex"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_o203v"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dwkc0"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_foer3"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_iwqm0"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_7va0q"]
-states/Crouching/node = SubResource("AnimationNodeBlendSpace2D_o203v")
-states/Crouching/position = Vector2(396, 162)
-states/Standing/node = SubResource("AnimationNodeBlendSpace2D_m2eob")
-states/Standing/position = Vector2(361, 31)
-transitions = ["Start", "Standing", SubResource("AnimationNodeStateMachineTransition_sgs03"), "Start", "Crouching", SubResource("AnimationNodeStateMachineTransition_ciu4a"), "Crouching", "Standing", SubResource("AnimationNodeStateMachineTransition_tsohc"), "Standing", "Crouching", SubResource("AnimationNodeStateMachineTransition_kxnhd"), "Standing", "End", SubResource("AnimationNodeStateMachineTransition_o203v"), "Crouching", "End", SubResource("AnimationNodeStateMachineTransition_foer3")]
-graph_offset = Vector2(21, -9)
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dy3x5"]
+advance_mode = 2
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uvwb7"]
-load_path = "res://.godot/imported/waiting_1.png-e65da7d9282290652b2da9dbac7cf1ab.ctex"
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_5e0iu"]
+advance_mode = 2
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8xrt3"]
-load_path = "res://.godot/imported/waiting_2.png-f886fbe9cca717da0dc5cdcaaf9117cb.ctex"
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_nvu1s"]
+switch_mode = 2
+advance_mode = 2
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cgnjl"]
-load_path = "res://.godot/imported/waiting_3.png-b3da906117858c18769b963a25b64d61.ctex"
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_dlv41"]
+switch_mode = 2
+advance_mode = 2
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ofycs"]
-load_path = "res://.godot/imported/waiting_4.png-e6a3166130a2f8e5b90d41e87a58d5f9.ctex"
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_akxxh"]
+states/Start/position = Vector2(129, -3)
+states/idle/node = SubResource("AnimationNodeBlendSpace2D_o203v")
+states/idle/position = Vector2(318, -3)
+states/interact/node = SubResource("AnimationNodeBlendSpace2D_m2eob")
+states/interact/position = Vector2(698, -3)
+states/waiting/node = SubResource("AnimationNodeAnimation_trnrs")
+states/waiting/position = Vector2(698, 199)
+states/walk/node = SubResource("AnimationNodeBlendSpace2D_4vv35")
+states/walk/position = Vector2(318, 199)
+transitions = ["Start", "idle", SubResource("AnimationNodeStateMachineTransition_caeo5"), "idle", "walk", SubResource("AnimationNodeStateMachineTransition_dxuny"), "walk", "interact", SubResource("AnimationNodeStateMachineTransition_g42u4"), "idle", "interact", SubResource("AnimationNodeStateMachineTransition_0agex"), "waiting", "interact", SubResource("AnimationNodeStateMachineTransition_dwkc0"), "idle", "waiting", SubResource("AnimationNodeStateMachineTransition_iwqm0"), "waiting", "walk", SubResource("AnimationNodeStateMachineTransition_dy3x5"), "walk", "idle", SubResource("AnimationNodeStateMachineTransition_5e0iu"), "interact", "idle", SubResource("AnimationNodeStateMachineTransition_nvu1s"), "interact", "walk", SubResource("AnimationNodeStateMachineTransition_dlv41")]
+graph_offset = Vector2(-65, -63)
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kndbu"]
-load_path = "res://.godot/imported/waiting_5.png-503d28882d8a60aa58c9d8fcf49af536.ctex"
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_gfm8p"]
+graph_offset = Vector2(-268.93903, 90.1319)
+nodes/Standing/node = SubResource("AnimationNodeStateMachine_akxxh")
+nodes/Standing/position = Vector2(-60, 140)
+node_connections = [&"output", 0, &"Standing"]
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qlje3"]
-load_path = "res://.godot/imported/waiting_6.png-918e1e7ae5d59e9b25c299d9d35c385b.ctex"
-
-[sub_resource type="Animation" id="Animation_hptrx"]
-resource_name = "waiting"
-length = 1.4
-loop_mode = 1
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1, 1.2),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [SubResource("CompressedTexture2D_2fr6c"), SubResource("CompressedTexture2D_uvwb7"), SubResource("CompressedTexture2D_8xrt3"), SubResource("CompressedTexture2D_cgnjl"), SubResource("CompressedTexture2D_ofycs"), SubResource("CompressedTexture2D_kndbu"), SubResource("CompressedTexture2D_qlje3")]
-}
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_67bwr"]
+nodes/BlendTree/node = SubResource("AnimationNodeBlendTree_gfm8p")
+nodes/BlendTree/position = Vector2(60, 140)
+node_connections = [&"output", 0, &"BlendTree"]
 
 [sub_resource type="Animation" id="Animation_y4oeo"]
 length = 0.001
@@ -904,83 +923,9 @@ tracks/0/keys = {
 "values": [SubResource("CompressedTexture2D_2fr6c")]
 }
 
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ukjuf"]
-load_path = "res://.godot/imported/idle_f_0.png-f154e720886941763645ae66d7adcf46.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uercd"]
-load_path = "res://.godot/imported/idle_f_1.png-63df0980024cff536685e110598ac282.ctex"
-
-[sub_resource type="Animation" id="Animation_ao7aj"]
-resource_name = "idle_f"
-length = 1.5
-loop_mode = 1
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [SubResource("CompressedTexture2D_ukjuf"), SubResource("CompressedTexture2D_uercd")]
-}
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dyax1"]
-load_path = "res://.godot/imported/idle_b_0.png-2c6636be81156d1d7c3250cadb1c1ea6.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wtc1i"]
-load_path = "res://.godot/imported/idle_b_1.png-7584f44306a94c28b24203448d9d5946.ctex"
-
-[sub_resource type="Animation" id="Animation_e1whh"]
-resource_name = "idle_b"
-length = 1.5
-loop_mode = 1
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [SubResource("CompressedTexture2D_dyax1"), SubResource("CompressedTexture2D_wtc1i")]
-}
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fc8n3"]
-load_path = "res://.godot/imported/idle_s_0.png-ac3fcd55f5f833f1b11900359ed1d4e3.ctex"
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dovt7"]
-load_path = "res://.godot/imported/idle_s_1.png-6b3015397e306c6d453685cf3a650a4b.ctex"
-
-[sub_resource type="Animation" id="Animation_m673m"]
-resource_name = "idle_s"
-length = 1.5
-loop_mode = 1
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [SubResource("CompressedTexture2D_fc8n3"), SubResource("CompressedTexture2D_dovt7")]
-}
-
-[sub_resource type="Animation" id="Animation_rk7lx"]
-resource_name = "walk_f"
+[sub_resource type="Animation" id="Animation_jjtug"]
+resource_name = "crouch_b"
 length = 6.0
-loop_mode = 1
-step = 1.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -991,145 +936,7 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
 "update": 1,
-"values": [ExtResource("4_ciu4a"), ExtResource("5_tsohc"), ExtResource("6_kxnhd"), ExtResource("7_o203v"), ExtResource("8_foer3"), ExtResource("9_34spd"), ExtResource("10_34ml6"), ExtResource("11_umk30")]
-}
-
-[sub_resource type="Animation" id="Animation_pvfhe"]
-resource_name = "walk_b"
-length = 6.0
-loop_mode = 1
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("12_m2eob"), ExtResource("13_trnrs"), ExtResource("14_xdlmk"), ExtResource("15_haqwt"), ExtResource("16_8heub"), ExtResource("17_d5oby"), ExtResource("18_4vv35"), ExtResource("19_caeo5")]
-}
-
-[sub_resource type="Animation" id="Animation_4f15u"]
-resource_name = "walk_s"
-length = 6.0
-loop_mode = 1
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("20_dxuny"), ExtResource("21_g42u4"), ExtResource("22_0agex"), ExtResource("23_dwkc0"), ExtResource("24_iwqm0"), ExtResource("25_dy3x5"), ExtResource("26_5e0iu"), ExtResource("27_nvu1s")]
-}
-
-[sub_resource type="Animation" id="Animation_jnjci"]
-resource_name = "interact_f"
-length = 3.0
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("28_dlv41"), ExtResource("29_akxxh"), ExtResource("30_gfm8p"), ExtResource("31_67bwr")]
-}
-
-[sub_resource type="Animation" id="Animation_mfyl0"]
-resource_name = "interact_b"
-length = 3.0
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("32_l7j3c"), ExtResource("33_vu5bs"), ExtResource("34_xsola"), ExtResource("35_1f7i7")]
-}
-
-[sub_resource type="Animation" id="Animation_bgebv"]
-resource_name = "interact_s"
-length = 3.0
-step = 1.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("36_v1qe0"), ExtResource("37_bojly"), ExtResource("38_p83e6"), ExtResource("39_kvvfj")]
-}
-
-[sub_resource type="Animation" id="Animation_2j3te"]
-resource_name = "crouch_idle_f"
-length = 1.5
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [ExtResource("40_ry3y5"), ExtResource("41_46upc")]
-}
-
-[sub_resource type="Animation" id="Animation_vete8"]
-resource_name = "crouch_idle_b"
-length = 1.5
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [ExtResource("42_8lrkg"), ExtResource("43_o84w1")]
-}
-
-[sub_resource type="Animation" id="Animation_rcrpb"]
-resource_name = "crouch_idle_s"
-length = 1.5
-loop_mode = 1
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1),
-"transitions": PackedFloat32Array(1, 1),
-"update": 1,
-"values": [ExtResource("44_ykgj3"), ExtResource("45_tr075")]
+"values": [ExtResource("54_nxvxc"), ExtResource("55_8udx4"), ExtResource("56_i0fw7"), ExtResource("57_xl8b8"), ExtResource("58_elviy"), ExtResource("59_iw5fk"), ExtResource("60_auit6"), ExtResource("61_25wkc")]
 }
 
 [sub_resource type="Animation" id="Animation_yh81d"]
@@ -1149,25 +956,9 @@ tracks/0/keys = {
 "values": [ExtResource("46_qbw8i"), ExtResource("47_aq36p"), ExtResource("48_l5m1c"), ExtResource("49_tgn3f"), ExtResource("50_hx0tj"), ExtResource("51_17sqr"), ExtResource("52_h7ry2"), ExtResource("53_k3fr4")]
 }
 
-[sub_resource type="Animation" id="Animation_jjtug"]
-resource_name = "crouch_b"
-length = 6.0
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:texture")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
-"update": 1,
-"values": [ExtResource("54_nxvxc"), ExtResource("55_8udx4"), ExtResource("56_i0fw7"), ExtResource("57_xl8b8"), ExtResource("58_elviy"), ExtResource("59_iw5fk"), ExtResource("60_auit6"), ExtResource("61_25wkc")]
-}
-
-[sub_resource type="Animation" id="Animation_op5mk"]
-resource_name = "crouch_s"
-length = 6.0
+[sub_resource type="Animation" id="Animation_vete8"]
+resource_name = "crouch_idle_b"
+length = 1.5
 loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -1176,15 +967,16 @@ tracks/0/path = NodePath(".:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
-"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [ExtResource("62_oinls"), ExtResource("63_gmd18"), ExtResource("64_ox053"), ExtResource("65_hlybv"), ExtResource("66_w6mo8"), ExtResource("67_h557d"), ExtResource("68_aevcu"), ExtResource("69_43t31")]
+"values": [ExtResource("42_8lrkg"), ExtResource("43_o84w1")]
 }
 
-[sub_resource type="Animation" id="Animation_8uqvc"]
-resource_name = "crouch_waiting"
-length = 0.5
+[sub_resource type="Animation" id="Animation_2j3te"]
+resource_name = "crouch_idle_f"
+length = 1.5
+loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
@@ -1192,10 +984,27 @@ tracks/0/path = NodePath(".:texture")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.25, 0.5),
-"transitions": PackedFloat32Array(1, 1, 1),
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
 "update": 1,
-"values": [ExtResource("70_el21m"), ExtResource("71_wmr52"), ExtResource("72_chayn")]
+"values": [ExtResource("40_ry3y5"), ExtResource("41_46upc")]
+}
+
+[sub_resource type="Animation" id="Animation_rcrpb"]
+resource_name = "crouch_idle_s"
+length = 1.5
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [ExtResource("44_ykgj3"), ExtResource("45_tr075")]
 }
 
 [sub_resource type="Animation" id="Animation_cte44"]
@@ -1246,6 +1055,252 @@ tracks/0/keys = {
 "values": [ExtResource("81_qql4v"), ExtResource("82_bj40w"), ExtResource("83_ce8gr"), ExtResource("84_8nsty")]
 }
 
+[sub_resource type="Animation" id="Animation_op5mk"]
+resource_name = "crouch_s"
+length = 6.0
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("62_oinls"), ExtResource("63_gmd18"), ExtResource("64_ox053"), ExtResource("65_hlybv"), ExtResource("66_w6mo8"), ExtResource("67_h557d"), ExtResource("68_aevcu"), ExtResource("69_43t31")]
+}
+
+[sub_resource type="Animation" id="Animation_8uqvc"]
+resource_name = "crouch_waiting"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.25, 0.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [ExtResource("70_el21m"), ExtResource("71_wmr52"), ExtResource("72_chayn")]
+}
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dyax1"]
+load_path = "res://.godot/imported/idle_b_0.png-2c6636be81156d1d7c3250cadb1c1ea6.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_wtc1i"]
+load_path = "res://.godot/imported/idle_b_1.png-7584f44306a94c28b24203448d9d5946.ctex"
+
+[sub_resource type="Animation" id="Animation_e1whh"]
+resource_name = "idle_b"
+length = 1.5
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [SubResource("CompressedTexture2D_dyax1"), SubResource("CompressedTexture2D_wtc1i")]
+}
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ukjuf"]
+load_path = "res://.godot/imported/idle_f_0.png-f154e720886941763645ae66d7adcf46.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uercd"]
+load_path = "res://.godot/imported/idle_f_1.png-63df0980024cff536685e110598ac282.ctex"
+
+[sub_resource type="Animation" id="Animation_ao7aj"]
+resource_name = "idle_f"
+length = 1.5
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [SubResource("CompressedTexture2D_ukjuf"), SubResource("CompressedTexture2D_uercd")]
+}
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fc8n3"]
+load_path = "res://.godot/imported/idle_s_0.png-ac3fcd55f5f833f1b11900359ed1d4e3.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_dovt7"]
+load_path = "res://.godot/imported/idle_s_1.png-6b3015397e306c6d453685cf3a650a4b.ctex"
+
+[sub_resource type="Animation" id="Animation_m673m"]
+resource_name = "idle_s"
+length = 1.5
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [SubResource("CompressedTexture2D_fc8n3"), SubResource("CompressedTexture2D_dovt7")]
+}
+
+[sub_resource type="Animation" id="Animation_mfyl0"]
+resource_name = "interact_b"
+length = 3.0
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("32_l7j3c"), ExtResource("33_vu5bs"), ExtResource("34_xsola"), ExtResource("35_1f7i7")]
+}
+
+[sub_resource type="Animation" id="Animation_jnjci"]
+resource_name = "interact_f"
+length = 3.0
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("28_dlv41"), ExtResource("29_akxxh"), ExtResource("30_gfm8p"), ExtResource("31_67bwr")]
+}
+
+[sub_resource type="Animation" id="Animation_bgebv"]
+resource_name = "interact_s"
+length = 3.0
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("36_v1qe0"), ExtResource("37_bojly"), ExtResource("38_p83e6"), ExtResource("39_kvvfj")]
+}
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_uvwb7"]
+load_path = "res://.godot/imported/waiting_1.png-e65da7d9282290652b2da9dbac7cf1ab.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8xrt3"]
+load_path = "res://.godot/imported/waiting_2.png-f886fbe9cca717da0dc5cdcaaf9117cb.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_cgnjl"]
+load_path = "res://.godot/imported/waiting_3.png-b3da906117858c18769b963a25b64d61.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ofycs"]
+load_path = "res://.godot/imported/waiting_4.png-e6a3166130a2f8e5b90d41e87a58d5f9.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_kndbu"]
+load_path = "res://.godot/imported/waiting_5.png-503d28882d8a60aa58c9d8fcf49af536.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_qlje3"]
+load_path = "res://.godot/imported/waiting_6.png-918e1e7ae5d59e9b25c299d9d35c385b.ctex"
+
+[sub_resource type="Animation" id="Animation_hptrx"]
+resource_name = "waiting"
+length = 1.4
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.2, 0.4, 0.6, 0.8, 1, 1.2),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [SubResource("CompressedTexture2D_2fr6c"), SubResource("CompressedTexture2D_uvwb7"), SubResource("CompressedTexture2D_8xrt3"), SubResource("CompressedTexture2D_cgnjl"), SubResource("CompressedTexture2D_ofycs"), SubResource("CompressedTexture2D_kndbu"), SubResource("CompressedTexture2D_qlje3")]
+}
+
+[sub_resource type="Animation" id="Animation_pvfhe"]
+resource_name = "walk_b"
+length = 6.0
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("12_m2eob"), ExtResource("13_trnrs"), ExtResource("14_xdlmk"), ExtResource("15_haqwt"), ExtResource("16_8heub"), ExtResource("17_d5oby"), ExtResource("18_4vv35"), ExtResource("19_caeo5")]
+}
+
+[sub_resource type="Animation" id="Animation_rk7lx"]
+resource_name = "walk_f"
+length = 6.0
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("4_ciu4a"), ExtResource("5_tsohc"), ExtResource("6_kxnhd"), ExtResource("7_o203v"), ExtResource("8_foer3"), ExtResource("9_34spd"), ExtResource("10_34ml6"), ExtResource("11_umk30")]
+}
+
+[sub_resource type="Animation" id="Animation_4f15u"]
+resource_name = "walk_s"
+length = 6.0
+loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 1.5, 2.5, 3, 4, 4.5, 5.5),
+"transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [ExtResource("20_dxuny"), ExtResource("21_g42u4"), ExtResource("22_0agex"), ExtResource("23_dwkc0"), ExtResource("24_iwqm0"), ExtResource("25_dy3x5"), ExtResource("26_5e0iu"), ExtResource("27_nvu1s")]
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_uo68i"]
 _data = {
 &"RESET": SubResource("Animation_y4oeo"),
@@ -1274,28 +1329,28 @@ _data = {
 [node name="CharacterBody2D" type="CharacterBody2D"]
 collision_mask = 2
 script = ExtResource("1_sgs03")
+max_y = 180.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-visible = false
 sprite_frames = SubResource("SpriteFrames_ucfvk")
-animation = &"interact_front"
+animation = &"walk_front"
 autoplay = "idle_front"
-frame = 4
-frame_progress = 1.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
 texture = SubResource("CompressedTexture2D_2fr6c")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 26.5)
+position = Vector2(0.5, 26.5)
 shape = SubResource("RectangleShape2D_xik2w")
 
 [node name="AnimationTree" type="AnimationTree" parent="."]
 root_node = NodePath("../Sprite2D")
-tree_root = SubResource("AnimationNodeStateMachine_7va0q")
+tree_root = SubResource("AnimationNodeBlendTree_67bwr")
 anim_player = NodePath("../AnimationPlayer")
-parameters/Crouching/blend_position = Vector2(0, 0)
-parameters/Standing/blend_position = Vector2(0, 0)
+parameters/BlendTree/Standing/idle/blend_position = Vector2(-0.0015949011, 0.0033669472)
+parameters/BlendTree/Standing/interact/blend_position = Vector2(0, 0)
+parameters/BlendTree/Standing/walk/blend_position = Vector2(0, 0)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Sprite2D")
