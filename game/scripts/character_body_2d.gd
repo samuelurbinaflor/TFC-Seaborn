@@ -1,7 +1,8 @@
 extends CharacterBody2D
 
-var SPEED = 70.0
-const NORMAL_SPEED = 70.0
+var SPEED = 75.0
+const NORMAL_SPEED = 75.0
+const VERTICAL_SPEED = 30.0
 const CROUCH_SPEED = 20.0
 const WAITING_TIME = 5.0
 
@@ -59,9 +60,9 @@ func _physics_process(delta: float) -> void:
 	if input_vector != Vector2.ZERO:
 		input_vector = input_vector.normalized()
 		last_direction = input_vector
-
 	if input_vector != Vector2.ZERO:
-		velocity = input_vector * SPEED
+		velocity.x = input_vector.x * SPEED
+		velocity.y = input_vector.y * VERTICAL_SPEED
 	else:
 		velocity = Vector2.ZERO
 
