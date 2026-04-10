@@ -1,6 +1,6 @@
 [gd_scene load_steps=223 format=3 uid="uid://dy4tc70ogykhq"]
 
-[ext_resource type="Script" uid="uid://3njafifr355s" path="res://game/scripts/character_body_2d.gd" id="1_sgs03"]
+[ext_resource type="Script" uid="uid://3njafifr355s" path="res://game/scripts/player.gd" id="1_sgs03"]
 [ext_resource type="Texture2D" uid="uid://ncr3oa0lt14u" path="res://game/assets/anim.png" id="2_pdmrp"]
 [ext_resource type="Texture2D" uid="uid://bpm1cj7sg467j" path="res://game/assets/crouch_waiting.png" id="3_5f77j"]
 [ext_resource type="Texture2D" uid="uid://cla7ivn5wryh4" path="res://game/assets/animations/standing/walk/front/walk_front__0.png" id="4_ciu4a"]
@@ -781,7 +781,7 @@ animations = [{
 load_path = "res://.godot/imported/waiting_0.png-ac893d9d5977fbb2b875938b7796cfc0.ctex"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xik2w"]
-size = Vector2(9, 5)
+size = Vector2(9, 4)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_sgs03"]
 animation = &"idle_b"
@@ -1326,14 +1326,14 @@ _data = {
 &"walk_s": SubResource("Animation_4f15u")
 }
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D"]
 collision_mask = 2
 script = ExtResource("1_sgs03")
 max_y = 180.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ucfvk")
-animation = &"walk_front"
+animation = &"idle_back"
 autoplay = "idle_front"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -1341,7 +1341,7 @@ visible = false
 texture = SubResource("CompressedTexture2D_2fr6c")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0.5, 26.5)
+position = Vector2(0.5, 27)
 shape = SubResource("RectangleShape2D_xik2w")
 
 [node name="AnimationTree" type="AnimationTree" parent="."]

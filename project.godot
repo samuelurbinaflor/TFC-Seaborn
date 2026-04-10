@@ -17,6 +17,10 @@ config/icon="uid://px3cxabb5t1b"
 config/macos_native_icon="uid://px3cxabb5t1b"
 config/windows_native_icon="uid://px3cxabb5t1b"
 
+[autoload]
+
+Global="*res://game/scripts/Global.gd"
+
 [display]
 
 window/size/viewport_width=320

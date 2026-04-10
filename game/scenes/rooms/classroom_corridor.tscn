@@ -1,0 +1,110 @@
+[gd_scene load_steps=8 format=3 uid="uid://iv6as0d6noaf"]
+
+[ext_resource type="Texture2D" uid="uid://yvnhfduntqqr" path="res://game/assets/ESCENARIO/pasillo_A.png" id="1_h6xbm"]
+[ext_resource type="Script" uid="uid://rxal17rpaog8" path="res://game/scripts/rooms/classroom_corridor.gd" id="1_ochqh"]
+[ext_resource type="PackedScene" uid="uid://dy4tc70ogykhq" path="res://game/scenes/player.tscn" id="2_ochqh"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_aws6c"]
+a = Vector2(70, 134)
+b = Vector2(-1, 165)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_tc4p0"]
+a = Vector2(70, 133)
+b = Vector2(680, 132)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_gb4wy"]
+a = Vector2(679, 132)
+b = Vector2(719, 141)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_x0ocd"]
+a = Vector2(2, 169)
+b = Vector2(196, 168)
+
+[node name="classroom_corridor" type="Node2D"]
+script = ExtResource("1_ochqh")
+
+[node name="PasilloA" type="Sprite2D" parent="."]
+position = Vector2(0, 22)
+scale = Vector2(0.25515947, 0.25515947)
+texture = ExtResource("1_h6xbm")
+centered = false
+
+[node name="Player" parent="." instance=ExtResource("2_ochqh")]
+position = Vector2(88, 135)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-89, -132)
+anchor_mode = 0
+limit_left = 0
+limit_top = 0
+limit_right = 715
+limit_bottom = 180
+limit_smoothed = true
+position_smoothing_enabled = true
+
+[node name="interact_label" type="Label" parent="Player"]
+visible = false
+offset_left = -58.0
+offset_top = -31.0
+offset_right = -3.0
+offset_bottom = -8.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Press E"
+
+[node name="walls" type="StaticBody2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_aws6c")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_tc4p0")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_gb4wy")
+
+[node name="door_1" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="door_1"]
+shape = SubResource("SegmentShape2D_x0ocd")
+
+[node name="spawn_1" type="Node2D" parent="door_1"]
+position = Vector2(87, 133)
+
+[node name="door_2" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="door_2"]
+position = Vector2(49, 146)
+polygon = PackedVector2Array(4, 1, 27, 1, 8, 15, -24, 13)
+
+[node name="spawn_2" type="Node2D" parent="door_2"]
+position = Vector2(60, 113)
+
+[node name="door_3" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="door_3"]
+position = Vector2(92, 136)
+polygon = PackedVector2Array(-1, 1, -9, 9, 31, 8, 25, 1)
+
+[node name="spawn_3" type="Node2D" parent="door_3"]
+position = Vector2(105, 111)
+
+[node name="door_4" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="door_4"]
+position = Vector2(302, 137)
+polygon = PackedVector2Array(-1, 0, -11, 9, 40, 8, 30, 0)
+
+[node name="spawn_4" type="Node2D" parent="door_4"]
+position = Vector2(316, 111)
+
+[node name="door_5" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="door_5"]
+position = Vector2(589, 133)
+polygon = PackedVector2Array(-17, 4, -31, 11, 57, 10, 39, 4)
+
+[node name="spawn_5" type="Node2D" parent="door_5"]
+position = Vector2(597, 114)
+
+[connection signal="body_entered" from="door_1" to="." method="_on_door_1_body_entered"]

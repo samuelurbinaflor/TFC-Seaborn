@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxwbpx1iks4oe"
-path="res://.godot/imported/escenario_test.png-e7080965f509a4d09feaea29dd9c423c.ctex"
+uid="uid://wad36f2bug4u"
+path="res://.godot/imported/a (2).png-81c6006e2d532f98712ebf12ffcf1399.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/scripts/escenario_test.png"
-dest_files=["res://.godot/imported/escenario_test.png-e7080965f509a4d09feaea29dd9c423c.ctex"]
+source_file="res://game/assets/a (2).png"
+dest_files=["res://.godot/imported/a (2).png-81c6006e2d532f98712ebf12ffcf1399.ctex"]
 
 [params]
 

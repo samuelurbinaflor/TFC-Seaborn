@@ -1,0 +1,47 @@
+[gd_scene load_steps=4 format=3 uid="uid://djtrhqc0l3s7x"]
+
+[ext_resource type="Script" uid="uid://h4hj3g3oygnb" path="res://game/scripts/rooms/cafeteria.gd" id="1_lqw3k"]
+[ext_resource type="Texture2D" uid="uid://cwc21sggvrak" path="res://game/assets/ESCENARIO/comedor.png" id="2_ebh0b"]
+[ext_resource type="PackedScene" uid="uid://dy4tc70ogykhq" path="res://game/scenes/player.tscn" id="3_lqid6"]
+
+[node name="cafeteria" type="Node2D"]
+script = ExtResource("1_lqw3k")
+
+[node name="Comedor" type="Sprite2D" parent="."]
+position = Vector2(-156.00002, 0)
+scale = Vector2(0.37344396, 0.37344396)
+texture = ExtResource("2_ebh0b")
+centered = false
+
+[node name="door_3" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="door_3"]
+position = Vector2(212.33337, 144.41592)
+polygon = PackedVector2Array(-0.33337402, -1.4159241, 36.666626, 22.584076, -9.333374, 24.584076, -35.333374, -2.415924)
+
+[node name="spawn_3" type="Node2D" parent="door_3"]
+position = Vector2(205, 122)
+
+[node name="Player" parent="." instance=ExtResource("3_lqid6")]
+position = Vector2(148, 119)
+
+[node name="interact_label" type="Label" parent="Player"]
+visible = false
+offset_left = 31.0
+offset_top = -30.0
+offset_right = 86.0
+offset_bottom = -7.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Press E"
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(-143, -93)
+anchor_mode = 0
+limit_left = -155
+limit_top = 0
+limit_right = 320
+limit_bottom = 180
+limit_smoothed = true
+position_smoothing_enabled = true
+
+[connection signal="body_entered" from="door_3" to="." method="_on_door_3_body_entered"]

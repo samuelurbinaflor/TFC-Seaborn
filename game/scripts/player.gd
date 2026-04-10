@@ -24,8 +24,17 @@ var last_direction = Vector2(0, 1)
 @export var max_scale: float = 5.0
 @export var max_y: float = 150.0
 
+
+var can_move := false
+@export var spawn_lock_time := 0.5
+
+func _ready() -> void:
+	set_spawn_direction(Global.spawn_info[1])
+	can_move = false
+	await get_tree().create_timer(spawn_lock_time).timeout
+	can_move = true
+	
 func _process(delta: float) -> void:
-		
 	var base_y = 95.0
 	var t = clamp((position.y - base_y) / max_y, 0.0, 1.0)
 	var scale_value = lerp(min_scale, max_scale, t)
@@ -36,6 +45,12 @@ func _physics_process(delta: float) -> void:
 	# -------------------------
 	# INPUT INTERACT (PRIORIDAD)
 	# -------------------------
+	if not can_move:
+		velocity = Vector2.ZERO
+		move_and_slide()
+		update_animation(Vector2.ZERO)
+		return
+	
 	if Input.is_action_just_pressed("interact") and not is_interacting:
 		start_interaction()
 		return
@@ -81,7 +96,18 @@ func _physics_process(delta: float) -> void:
 
 	update_animation(input_vector)
 
-
+func set_spawn_direction(dir: int) -> void:
+	match dir:
+		1: # back
+			last_direction = Vector2(0, -1)
+		2: # right
+			last_direction = Vector2(1, 0)
+		3: # front
+			last_direction = Vector2(0, 1)
+		4: # left
+			last_direction = Vector2(-1, 0)
+		_:
+			last_direction = Vector2(0, 1)
 # -------------------------
 # INTERACCIÓN
 # -------------------------
