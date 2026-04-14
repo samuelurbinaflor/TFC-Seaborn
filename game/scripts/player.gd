@@ -21,7 +21,7 @@ var last_direction = Vector2(0, 1)
 
 #Tamaño del sprite
 @export var min_scale: float = 1.0
-@export var max_scale: float = 5.0
+@export var max_scale: float = 7.0
 @export var max_y: float = 150.0
 
 
@@ -35,7 +35,7 @@ func _ready() -> void:
 	can_move = true
 	
 func _process(delta: float) -> void:
-	var base_y = 95.0
+	var base_y = 90
 	var t = clamp((position.y - base_y) / max_y, 0.0, 1.0)
 	var scale_value = lerp(min_scale, max_scale, t)
 	sprite.scale = Vector2(scale_value, scale_value)

@@ -23,7 +23,7 @@ polygon = PackedVector2Array(-0.33337402, -1.4159241, 36.666626, 22.584076, -9.3
 position = Vector2(205, 122)
 
 [node name="Player" parent="." instance=ExtResource("3_lqid6")]
-position = Vector2(148, 119)
+position = Vector2(155, 129)
 
 [node name="interact_label" type="Label" parent="Player"]
 visible = false

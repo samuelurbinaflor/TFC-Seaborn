@@ -108,7 +108,7 @@ shape = SubResource("SegmentShape2D_hvoq3")
 position = Vector2(459, 130)
 
 [node name="Player" parent="." instance=ExtResource("3_seiag")]
-position = Vector2(200, 106)
+position = Vector2(115, 97)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 position = Vector2(-143, -93)
