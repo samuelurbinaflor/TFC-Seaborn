@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cdc6xeqh6mace"
-path="res://.godot/imported/recepcion.png-0caa7740978239fe36f714d5e62437c8.ctex"
+uid="uid://ce6ew0xsaslt1"
+path="res://.godot/imported/pasillo_Enfermeria.png-b049317521326e5713eee76936ca08e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/recepcion.png"
-dest_files=["res://.godot/imported/recepcion.png-0caa7740978239fe36f714d5e62437c8.ctex"]
+source_file="res://game/assets/scenario screenshots/pasillo_Enfermeria.png"
+dest_files=["res://.godot/imported/pasillo_Enfermeria.png-b049317521326e5713eee76936ca08e5.ctex"]
 
 [params]
 

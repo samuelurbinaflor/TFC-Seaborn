@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tslsnhb8rjd2"
-path="res://.godot/imported/habitacion.png-af92ae5b5de3e51d75b6420ffe7549f6.ctex"
+uid="uid://bay1bheqmo3wq"
+path="res://.godot/imported/door sizes.png-f2a97bf945bf96891a81593143cd72a0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/habitacion.png"
-dest_files=["res://.godot/imported/habitacion.png-af92ae5b5de3e51d75b6420ffe7549f6.ctex"]
+source_file="res://docs/Planos/door sizes.png"
+dest_files=["res://.godot/imported/door sizes.png-f2a97bf945bf96891a81593143cd72a0.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dd3cmupk4wjog"
-path="res://.godot/imported/floor_reflect.png-25d80f9d0eaad4c2d98cf4d09e743fcf.ctex"
+uid="uid://cuctjvcgxajkh"
+path="res://.godot/imported/entrada.png-35af35d22f12ea146ec6629170c7a6d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/floor_reflect.png"
-dest_files=["res://.godot/imported/floor_reflect.png-25d80f9d0eaad4c2d98cf4d09e743fcf.ctex"]
+source_file="res://game/assets/scenario screenshots/entrada.png"
+dest_files=["res://.godot/imported/entrada.png-35af35d22f12ea146ec6629170c7a6d1.ctex"]
 
 [params]
 

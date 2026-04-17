@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ncr3oa0lt14u"
-path="res://.godot/imported/anim.png-69da29669b4f3cdec6a75147e7674a72.ctex"
+uid="uid://bs0r1ic0u3yuv"
+path="res://.godot/imported/entrada_sup.png-bab0cff4fc03be2a290f4e2e3f67ebe7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/anim.png"
-dest_files=["res://.godot/imported/anim.png-69da29669b4f3cdec6a75147e7674a72.ctex"]
+source_file="res://game/assets/scenario screenshots/entrada_sup.png"
+dest_files=["res://.godot/imported/entrada_sup.png-bab0cff4fc03be2a290f4e2e3f67ebe7.ctex"]
 
 [params]
 

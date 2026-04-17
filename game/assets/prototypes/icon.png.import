@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6umw6jm1d1c4"
-path="res://.godot/imported/tele.png-c7ba00cdb5284874290de9cc18b87bf7.ctex"
+uid="uid://px3cxabb5t1b"
+path="res://.godot/imported/icon.png-1de95cb50801438236fb0cbfcce6be66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/tele.png"
-dest_files=["res://.godot/imported/tele.png-c7ba00cdb5284874290de9cc18b87bf7.ctex"]
+source_file="res://game/assets/prototypes/icon.png"
+dest_files=["res://.godot/imported/icon.png-1de95cb50801438236fb0cbfcce6be66.ctex"]
 
 [params]
 

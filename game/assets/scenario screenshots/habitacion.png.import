@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cr4hac8qwiv4d"
-path="res://.godot/imported/escenario_test.png-bcaaf3e5757c1043b6c959b09848686f.ctex"
+uid="uid://tslsnhb8rjd2"
+path="res://.godot/imported/habitacion.png-02f44ef6f89ae8d33029beef719673c9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/escenario_test.png"
-dest_files=["res://.godot/imported/escenario_test.png-bcaaf3e5757c1043b6c959b09848686f.ctex"]
+source_file="res://game/assets/scenario screenshots/habitacion.png"
+dest_files=["res://.godot/imported/habitacion.png-02f44ef6f89ae8d33029beef719673c9.ctex"]
 
 [params]
 

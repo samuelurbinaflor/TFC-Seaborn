@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bpm1cj7sg467j"
-path="res://.godot/imported/crouch_waiting.png-1c7610c6b7df044c04db6ebe4ea17725.ctex"
+uid="uid://dgxfkcpmbimn1"
+path="res://.godot/imported/sala de conferencias.png-1c34547e1bedfbc129d821b9b5347e91.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/crouch_waiting.png"
-dest_files=["res://.godot/imported/crouch_waiting.png-1c7610c6b7df044c04db6ebe4ea17725.ctex"]
+source_file="res://game/assets/scenario screenshots/sala de conferencias.png"
+dest_files=["res://.godot/imported/sala de conferencias.png-1c34547e1bedfbc129d821b9b5347e91.ctex"]
 
 [params]
 

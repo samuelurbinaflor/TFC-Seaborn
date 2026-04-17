@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1peno4ci8li8"
-path="res://.godot/imported/pasillo_recepcion.png-1c5d666f9ae27a7b81f17e78c7aa6688.ctex"
+uid="uid://nkneewv55vax"
+path="res://.godot/imported/Untitled - 1.png-f8cf7a2504ee2cc5981e4ecfc174585c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/pasillo_recepcion.png"
-dest_files=["res://.godot/imported/pasillo_recepcion.png-1c5d666f9ae27a7b81f17e78c7aa6688.ctex"]
+source_file="res://game/assets/Untitled - 1.png"
+dest_files=["res://.godot/imported/Untitled - 1.png-f8cf7a2504ee2cc5981e4ecfc174585c.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d07rbyypkcfta"
-path="res://.godot/imported/sala_recepcion.png-e3994da3e50f8e83477032e4f7a7b215.ctex"
+uid="uid://by5dflhur74te"
+path="res://.godot/imported/aula.png-a80ab89edbe6f6fe7c05ec4a2bab089b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/sala_recepcion.png"
-dest_files=["res://.godot/imported/sala_recepcion.png-e3994da3e50f8e83477032e4f7a7b215.ctex"]
+source_file="res://game/assets/scenario screenshots/aula.png"
+dest_files=["res://.godot/imported/aula.png-a80ab89edbe6f6fe7c05ec4a2bab089b.ctex"]
 
 [params]
 

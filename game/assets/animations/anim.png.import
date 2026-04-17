@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8qgv06sp335r"
-path="res://.godot/imported/baño_H.png-e3d6a2b1749e88bec29301301fb6a675.ctex"
+uid="uid://ncr3oa0lt14u"
+path="res://.godot/imported/anim.png-fd982c654d41c845e1cc32541de86507.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/baño_H.png"
-dest_files=["res://.godot/imported/baño_H.png-e3d6a2b1749e88bec29301301fb6a675.ctex"]
+source_file="res://game/assets/animations/anim.png"
+dest_files=["res://.godot/imported/anim.png-fd982c654d41c845e1cc32541de86507.ctex"]
 
 [params]
 

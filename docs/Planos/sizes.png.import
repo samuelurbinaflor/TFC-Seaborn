@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d23rdj6y361ll"
-path="res://.godot/imported/lavanderia.png-86f188f722a718d5aa9de86f8f7fcdbd.ctex"
+uid="uid://cpxgywghanlto"
+path="res://.godot/imported/sizes.png-781fda9819443c04d4dfcdf8fa817d42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/lavanderia.png"
-dest_files=["res://.godot/imported/lavanderia.png-86f188f722a718d5aa9de86f8f7fcdbd.ctex"]
+source_file="res://docs/Planos/sizes.png"
+dest_files=["res://.godot/imported/sizes.png-781fda9819443c04d4dfcdf8fa817d42.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://be6rxh303pogu"
-path="res://.godot/imported/pasillo_ascensor.png-a7d27ae270974af186e4149df0bd3556.ctex"
+uid="uid://d07rbyypkcfta"
+path="res://.godot/imported/sala_recepcion.png-6fb7776294eb089c0fdc0093eb60aa4b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/pasillo_ascensor.png"
-dest_files=["res://.godot/imported/pasillo_ascensor.png-a7d27ae270974af186e4149df0bd3556.ctex"]
+source_file="res://game/assets/scenario screenshots/sala_recepcion.png"
+dest_files=["res://.godot/imported/sala_recepcion.png-6fb7776294eb089c0fdc0093eb60aa4b.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://615ku6ofuq8"
-path="res://.godot/imported/sala_sup.png-f024e96a47d5b2232ea9ea32178f8bd0.ctex"
+uid="uid://cwc21sggvrak"
+path="res://.godot/imported/comedor.png-1a83f9753d4c5e99fdaebd9a99238c3d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/sala_sup.png"
-dest_files=["res://.godot/imported/sala_sup.png-f024e96a47d5b2232ea9ea32178f8bd0.ctex"]
+source_file="res://game/assets/scenario screenshots/comedor.png"
+dest_files=["res://.godot/imported/comedor.png-1a83f9753d4c5e99fdaebd9a99238c3d.ctex"]
 
 [params]
 

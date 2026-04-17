@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bs0r1ic0u3yuv"
-path="res://.godot/imported/entrada_sup.png-dd5e0a4e957b53a6a93331d22f8ca15d.ctex"
+uid="uid://bkk7v1b4nxy75"
+path="res://.godot/imported/hall.png-318c11134568a68c7e643729921b5703.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/entrada_sup.png"
-dest_files=["res://.godot/imported/entrada_sup.png-dd5e0a4e957b53a6a93331d22f8ca15d.ctex"]
+source_file="res://game/assets/scenario/hall.png"
+dest_files=["res://.godot/imported/hall.png-318c11134568a68c7e643729921b5703.ctex"]
 
 [params]
 

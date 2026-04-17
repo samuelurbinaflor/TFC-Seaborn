@@ -1,7 +1,7 @@
 [gd_scene load_steps=12 format=3 uid="uid://qdkmt4embst2"]
 
 [ext_resource type="Script" uid="uid://dutvi5d65v1so" path="res://game/scripts/rooms/hall.gd" id="1_735q7"]
-[ext_resource type="Texture2D" uid="uid://cuctjvcgxajkh" path="res://game/assets/ESCENARIO/entrada.png" id="2_pyg8y"]
+[ext_resource type="Texture2D" path="res://game/assets/ESCENARIO/entrada.png" id="2_pyg8y"]
 [ext_resource type="PackedScene" uid="uid://dy4tc70ogykhq" path="res://game/scenes/player.tscn" id="3_seiag"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_6fwk7"]

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpxgywghanlto"
-path="res://.godot/imported/sizes.png-1fe0e53fa4d0338023557d02d229658c.ctex"
+uid="uid://bvp3v2jxh2yg4"
+path="res://.godot/imported/elevator.png-69b38a209bdd48483bbb2688d8df9521.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/sizes.png"
-dest_files=["res://.godot/imported/sizes.png-1fe0e53fa4d0338023557d02d229658c.ctex"]
+source_file="res://game/assets/doors/elevator.png"
+dest_files=["res://.godot/imported/elevator.png-69b38a209bdd48483bbb2688d8df9521.ctex"]
 
 [params]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=223 format=3 uid="uid://dy4tc70ogykhq"]
 
 [ext_resource type="Script" uid="uid://3njafifr355s" path="res://game/scripts/player.gd" id="1_sgs03"]
-[ext_resource type="Texture2D" uid="uid://ncr3oa0lt14u" path="res://game/assets/anim.png" id="2_pdmrp"]
-[ext_resource type="Texture2D" uid="uid://bpm1cj7sg467j" path="res://game/assets/crouch_waiting.png" id="3_5f77j"]
+[ext_resource type="Texture2D" uid="uid://ncr3oa0lt14u" path="res://game/assets/animations/anim.png" id="2_pdmrp"]
+[ext_resource type="Texture2D" path="res://game/assets/crouch_waiting.png" id="3_5f77j"]
 [ext_resource type="Texture2D" uid="uid://cla7ivn5wryh4" path="res://game/assets/animations/standing/walk/front/walk_front__0.png" id="4_ciu4a"]
 [ext_resource type="Texture2D" uid="uid://bjd8yjjp16h4d" path="res://game/assets/animations/standing/walk/front/walk_front__1.png" id="5_tsohc"]
 [ext_resource type="Texture2D" uid="uid://csc8sayb4kns8" path="res://game/assets/animations/standing/walk/front/walk_front__2.png" id="6_kxnhd"]
@@ -1333,7 +1333,7 @@ max_y = 180.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ucfvk")
-animation = &"idle_back"
+animation = &"walk_side"
 autoplay = "idle_front"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

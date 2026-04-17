@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cuctjvcgxajkh"
-path="res://.godot/imported/entrada.png-2c078e3d7cbd25d7ac5f7d1b5415420b.ctex"
+uid="uid://cdc6xeqh6mace"
+path="res://.godot/imported/recepcion.png-4d07c69ff7a3e617e3bf43dc7dbf6575.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/ESCENARIO/entrada.png"
-dest_files=["res://.godot/imported/entrada.png-2c078e3d7cbd25d7ac5f7d1b5415420b.ctex"]
+source_file="res://game/assets/scenario screenshots/recepcion.png"
+dest_files=["res://.godot/imported/recepcion.png-4d07c69ff7a3e617e3bf43dc7dbf6575.ctex"]
 
 [params]
 
