@@ -1,8 +1,7 @@
-[gd_scene load_steps=223 format=3 uid="uid://dy4tc70ogykhq"]
+[gd_scene load_steps=221 format=3 uid="uid://dy4tc70ogykhq"]
 
 [ext_resource type="Script" uid="uid://3njafifr355s" path="res://game/scripts/player.gd" id="1_sgs03"]
 [ext_resource type="Texture2D" uid="uid://ncr3oa0lt14u" path="res://game/assets/animations/anim.png" id="2_pdmrp"]
-[ext_resource type="Texture2D" path="res://game/assets/crouch_waiting.png" id="3_5f77j"]
 [ext_resource type="Texture2D" uid="uid://cla7ivn5wryh4" path="res://game/assets/animations/standing/walk/front/walk_front__0.png" id="4_ciu4a"]
 [ext_resource type="Texture2D" uid="uid://bjd8yjjp16h4d" path="res://game/assets/animations/standing/walk/front/walk_front__1.png" id="5_tsohc"]
 [ext_resource type="Texture2D" uid="uid://csc8sayb4kns8" path="res://game/assets/animations/standing/walk/front/walk_front__2.png" id="6_kxnhd"]
@@ -151,17 +150,13 @@ region = Rect2(640, 256, 64, 64)
 atlas = ExtResource("2_pdmrp")
 region = Rect2(704, 256, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_sgc1i"]
-atlas = ExtResource("3_5f77j")
-region = Rect2(0, 0, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_y2te0"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(0, 320, 64, 64)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_su5g8"]
-atlas = ExtResource("3_5f77j")
-region = Rect2(64, 0, 64, 64)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_xmm3d"]
-atlas = ExtResource("3_5f77j")
-region = Rect2(128, 0, 64, 64)
+[sub_resource type="AtlasTexture" id="AtlasTexture_5ikfu"]
+atlas = ExtResource("2_pdmrp")
+region = Rect2(64, 320, 64, 64)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_l2b3h"]
 atlas = SubResource("CompressedTexture2D_pdmrp")
@@ -468,13 +463,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_sgc1i")
+"texture": SubResource("AtlasTexture_y2te0")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_su5g8")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_xmm3d")
+"texture": SubResource("AtlasTexture_5ikfu")
 }],
 "loop": false,
 "name": &"crouch_waiting",
@@ -1329,11 +1321,10 @@ _data = {
 [node name="Player" type="CharacterBody2D"]
 collision_mask = 2
 script = ExtResource("1_sgs03")
-max_y = 180.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_ucfvk")
-animation = &"walk_side"
+animation = &"idle_front"
 autoplay = "idle_front"
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

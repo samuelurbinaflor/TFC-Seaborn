@@ -2,11 +2,12 @@ extends CharacterBody2D
 
 var SPEED = 75.0
 const NORMAL_SPEED = 75.0
-const VERTICAL_SPEED = 30.0
+const VERTICAL_SPEED = 15.0
 const CROUCH_SPEED = 20.0
 const WAITING_TIME = 5.0
 
-@onready var sprite = $AnimatedSprite2D
+@onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
+
 
 # --- State machine ---
 var current_state = "idle"
@@ -22,7 +23,9 @@ var last_direction = Vector2(0, 1)
 #Tamaño del sprite
 @export var min_scale: float = 1.0
 @export var max_scale: float = 7.0
-@export var max_y: float = 150.0
+
+@export var max_y: float = 180.0
+@export var min_y: float = 85.0
 
 
 var can_move := false
@@ -35,10 +38,10 @@ func _ready() -> void:
 	can_move = true
 	
 func _process(delta: float) -> void:
-	var base_y = 90
-	var t = clamp((position.y - base_y) / max_y, 0.0, 1.0)
+	var t = (position.y - min_y) / (max_y - min_y)
 	var scale_value = lerp(min_scale, max_scale, t)
-	sprite.scale = Vector2(scale_value, scale_value)
+	scale_value = clamp(scale_value, 0.3, 3.0)
+	self.scale = Vector2(scale_value, scale_value)
 	
 func _physics_process(delta: float) -> void:
 

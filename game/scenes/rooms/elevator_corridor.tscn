@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://v6wqbnu4fx8o"]
 
-[ext_resource type="Texture2D" uid="uid://be6rxh303pogu" path="res://game/assets/ESCENARIO/pasillo_ascensor.png" id="1_77lte"]
+[ext_resource type="Texture2D" uid="uid://be6rxh303pogu" path="res://game/assets/scenario screenshots/pasillo_ascensor.png" id="1_77lte"]
 [ext_resource type="Script" uid="uid://b452utmfuql8c" path="res://game/scripts/rooms/elevator_corridor.gd" id="1_jqqqr"]
 [ext_resource type="PackedScene" uid="uid://dy4tc70ogykhq" path="res://game/scenes/player.tscn" id="2_7ng0c"]
 
@@ -47,7 +47,7 @@ shape = SubResource("SegmentShape2D_xxe83")
 metadata/_edit_lock_ = true
 
 [node name="spawn_1" type="Node2D" parent="door_1"]
-position = Vector2(171, 110)
+position = Vector2(171, 90)
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="door_1"]
 position = Vector2(117, 166)
