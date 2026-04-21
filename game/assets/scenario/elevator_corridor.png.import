@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://nkneewv55vax"
-path="res://.godot/imported/Untitled - 1.png-f8cf7a2504ee2cc5981e4ecfc174585c.ctex"
+uid="uid://cujqsn6qmmtoe"
+path="res://.godot/imported/elevator_corridor.png-216627223abe98fa1b02f99a718141ae.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/Untitled - 1.png"
-dest_files=["res://.godot/imported/Untitled - 1.png-f8cf7a2504ee2cc5981e4ecfc174585c.ctex"]
+source_file="res://game/assets/scenario/elevator_corridor.png"
+dest_files=["res://.godot/imported/elevator_corridor.png-216627223abe98fa1b02f99a718141ae.ctex"]
 
 [params]
 

@@ -33,7 +33,7 @@ a = Vector2(-1, 174)
 b = Vector2(-1, 203)
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_6fwk7"]
-distance = 21.0
+distance = 34.0
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_hvoq3"]
 a = Vector2(522, 182)
@@ -116,11 +116,11 @@ position = Vector2(71, 7)
 shape = SubResource("SegmentShape2D_hvoq3")
 
 [node name="spawn_4" type="Node2D" parent="doors/door_4"]
-position = Vector2(459, 130)
+position = Vector2(526, 105)
 
 [node name="Player" parent="." instance=ExtResource("3_seiag")]
 z_index = 2
-position = Vector2(238, 112)
+position = Vector2(402, 130)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 limit_left = 0

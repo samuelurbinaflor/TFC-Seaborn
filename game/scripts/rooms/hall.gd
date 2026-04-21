@@ -13,14 +13,8 @@ var local_spawn_info = [0,0]
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	if Global.spawn_info != [0,0]:
-		var node_path = "door_" + str(Global.spawn_info[0]) + "/spawn_" + str(Global.spawn_info[0])
-		
-		# Verificamos si el nodo existe en la escena actual
-		if has_node(node_path):
-			var spawn_node = get_node(node_path)
-			player.position = spawn_node.position
-		else:
-			push_warning("Cuidado: No se encontró el nodo de spawn en esta escena: " + node_path)
+		var spawn_node = get_node("doors" + "/door_" + str(Global.spawn_info[0]) + "/spawn_" + str(Global.spawn_info[0]))
+		player.position = spawn_node.position
 
 func show_interact_label(bol: bool):
 	interact_label.visible = bol

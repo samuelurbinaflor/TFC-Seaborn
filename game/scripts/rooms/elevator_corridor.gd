@@ -13,7 +13,7 @@ var local_spawn_info = [0,0]
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	if Global.spawn_info != [0,0]:
-		var spawn_node = get_node("door_" + str(Global.spawn_info[0]) + "/spawn_" + str(Global.spawn_info[0]))
+		var spawn_node = get_node("doors" + "/door_" + str(Global.spawn_info[0]) + "/spawn_" + str(Global.spawn_info[0]))
 		player.position = spawn_node.position
 
 func show_interact_label(bol: bool):
@@ -61,8 +61,6 @@ func area_exited():
 	player_on_area = "none"
 	show_interact_label(false)
 	
-func _on_door_1_body_exited(body: Node2D) -> void:
-	area_exited()
 
 func _on_door_2_body_exited(body: Node2D) -> void:
 	area_exited()

@@ -1,28 +1,44 @@
-[gd_scene load_steps=7 format=3 uid="uid://v6wqbnu4fx8o"]
+[gd_scene load_steps=11 format=3 uid="uid://v6wqbnu4fx8o"]
 
-[ext_resource type="Texture2D" uid="uid://be6rxh303pogu" path="res://game/assets/scenario screenshots/pasillo_ascensor.png" id="1_77lte"]
 [ext_resource type="Script" uid="uid://b452utmfuql8c" path="res://game/scripts/rooms/elevator_corridor.gd" id="1_jqqqr"]
 [ext_resource type="PackedScene" uid="uid://dy4tc70ogykhq" path="res://game/scenes/player.tscn" id="2_7ng0c"]
+[ext_resource type="Texture2D" uid="uid://cujqsn6qmmtoe" path="res://game/assets/scenario/elevator_corridor.png" id="2_jqqqr"]
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_xxe83"]
-a = Vector2(97, 122)
-b = Vector2(235, 122)
+a = Vector2(104, 126)
+b = Vector2(277, 126)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_fsmy3"]
+a = Vector2(276, 99)
+b = Vector2(420, 160)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_lplhc"]
+a = Vector2(380, 166)
+b = Vector2(275, 166)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_4dl1w"]
+a = Vector2(402, 148)
+b = Vector2(402, 183)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_jqqqr"]
+a = Vector2(44, 179)
+b = Vector2(298, 179)
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_f1k54"]
-a = Vector2(99, 122)
-b = Vector2(41, 180)
+a = Vector2(105, 125)
+b = Vector2(31, 191)
 
 [sub_resource type="SegmentShape2D" id="SegmentShape2D_kws8i"]
-a = Vector2(305, 181)
-b = Vector2(235, 123)
+a = Vector2(340, 126)
+b = Vector2(277, 126)
 
 [node name="elevator_corridor" type="Node2D"]
 script = ExtResource("1_jqqqr")
 
 [node name="PasilloAscensor" type="Sprite2D" parent="."]
-position = Vector2(159.16951, 73.45313)
-scale = Vector2(0.22664683, 0.22664677)
-texture = ExtResource("1_77lte")
+texture = ExtResource("2_jqqqr")
+centered = false
+metadata/_edit_lock_ = true
 
 [node name="Player" parent="." instance=ExtResource("2_7ng0c")]
 position = Vector2(154, 111)
@@ -36,68 +52,86 @@ offset_bottom = -8.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "Press E"
 
-[node name="walls" type="StaticBody2D" parent="."]
+[node name="Camera2D" type="Camera2D" parent="Player"]
+limit_left = 0
+limit_top = 0
+limit_right = 400
+limit_bottom = 180
+limit_smoothed = true
+position_smoothing_enabled = true
+
+[node name="collisions" type="StaticBody2D" parent="."]
 collision_layer = 2
 metadata/_edit_lock_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="walls"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="collisions"]
 shape = SubResource("SegmentShape2D_xxe83")
 
-[node name="door_1" type="Area2D" parent="."]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="collisions"]
+shape = SubResource("SegmentShape2D_fsmy3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="collisions"]
+position = Vector2(21, 15)
+shape = SubResource("SegmentShape2D_lplhc")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="collisions"]
+shape = SubResource("SegmentShape2D_4dl1w")
+
+[node name="doors" type="Node2D" parent="."]
+
+[node name="door_1" type="Area2D" parent="doors"]
 metadata/_edit_lock_ = true
 
-[node name="spawn_1" type="Node2D" parent="door_1"]
-position = Vector2(171, 90)
+[node name="spawn_1" type="Node2D" parent="doors/door_1"]
+position = Vector2(198, 107)
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="door_1"]
-position = Vector2(117, 166)
-polygon = PackedVector2Array(-73, 14, 184, 14, 158, -8, -51, -8)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="doors/door_1"]
+shape = SubResource("SegmentShape2D_jqqqr")
 
-[node name="door_2" type="Area2D" parent="."]
+[node name="door_2" type="Area2D" parent="doors"]
 metadata/_edit_lock_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="door_2"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="doors/door_2"]
 shape = SubResource("SegmentShape2D_f1k54")
 
-[node name="spawn_2" type="Node2D" parent="door_2"]
+[node name="spawn_2" type="Node2D" parent="doors/door_2"]
 position = Vector2(95, 115)
 
-[node name="door_3" type="Area2D" parent="."]
+[node name="door_3" type="Area2D" parent="doors"]
 metadata/_edit_lock_ = true
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="door_3"]
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="doors/door_3"]
 position = Vector2(116, 125)
-polygon = PackedVector2Array(-6, -2, -13, 9, 52, 9, 50, -2)
+polygon = PackedVector2Array(10, 2, -2, 11, 79, 11, 70, 2)
 
-[node name="spawn_3" type="Node2D" parent="door_3"]
-position = Vector2(139, 110)
+[node name="spawn_3" type="Node2D" parent="doors/door_3"]
+position = Vector2(154, 90)
 
-[node name="door_4" type="Area2D" parent="."]
+[node name="door_4" type="Area2D" parent="doors"]
 metadata/_edit_lock_ = true
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="door_4"]
-position = Vector2(181, 123)
-polygon = PackedVector2Array(-1, 1, 3, 10, 41, 10, 31, 0)
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="doors/door_4"]
+position = Vector2(210, 126)
+polygon = PackedVector2Array(0, 1, -6, 10, 46, 10, 35, 1)
 
-[node name="spawn_4" type="Node2D" parent="door_4"]
-position = Vector2(195, 109)
+[node name="spawn_4" type="Node2D" parent="doors/door_4"]
+position = Vector2(222, 102)
 
-[node name="door_5" type="Area2D" parent="."]
+[node name="door_5" type="Area2D" parent="doors"]
 metadata/_edit_lock_ = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="door_5"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="doors/door_5"]
 shape = SubResource("SegmentShape2D_kws8i")
 
-[node name="spawn_5" type="Node2D" parent="door_5"]
-position = Vector2(239, 117)
+[node name="spawn_5" type="Node2D" parent="doors/door_5"]
+position = Vector2(299, 99)
 
-[connection signal="body_entered" from="door_1" to="." method="_on_door_1_body_entered"]
-[connection signal="body_exited" from="door_1" to="." method="_on_door_1_body_exited"]
-[connection signal="body_entered" from="door_2" to="." method="_on_door_2_body_entered"]
-[connection signal="body_exited" from="door_2" to="." method="_on_door_2_body_exited"]
-[connection signal="body_entered" from="door_3" to="." method="_on_door_3_body_entered"]
-[connection signal="body_exited" from="door_3" to="." method="_on_door_3_body_exited"]
-[connection signal="body_entered" from="door_4" to="." method="_on_door_4_body_entered"]
-[connection signal="body_exited" from="door_4" to="." method="_on_door_4_body_exited"]
-[connection signal="body_entered" from="door_5" to="." method="_on_door_5_body_entered"]
-[connection signal="body_exited" from="door_5" to="." method="_on_door_5_body_exited"]
+[connection signal="body_entered" from="doors/door_1" to="." method="_on_door_1_body_entered"]
+[connection signal="body_entered" from="doors/door_2" to="." method="_on_door_2_body_entered"]
+[connection signal="body_exited" from="doors/door_2" to="." method="_on_door_2_body_exited"]
+[connection signal="body_entered" from="doors/door_3" to="." method="_on_door_3_body_entered"]
+[connection signal="body_exited" from="doors/door_3" to="." method="_on_door_3_body_exited"]
+[connection signal="body_entered" from="doors/door_4" to="." method="_on_door_4_body_entered"]
+[connection signal="body_exited" from="doors/door_4" to="." method="_on_door_4_body_exited"]
+[connection signal="body_entered" from="doors/door_5" to="." method="_on_door_5_body_entered"]
+[connection signal="body_exited" from="doors/door_5" to="." method="_on_door_5_body_exited"]
