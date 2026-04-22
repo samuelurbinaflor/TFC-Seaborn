@@ -95,7 +95,7 @@ metadata/_edit_lock_ = true
 shape = SubResource("SegmentShape2D_f1k54")
 
 [node name="spawn_2" type="Node2D" parent="doors/door_2"]
-position = Vector2(95, 115)
+position = Vector2(105, 102)
 
 [node name="door_3" type="Area2D" parent="doors"]
 metadata/_edit_lock_ = true
