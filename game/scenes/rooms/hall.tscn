@@ -89,7 +89,7 @@ position = Vector2(73, 123)
 polygon = PackedVector2Array(8, 12, -34, 34, -5, 41, 26, 15)
 
 [node name="spawn_1" type="Node2D" parent="doors/door_1"]
-position = Vector2(62, 103)
+position = Vector2(80, 96)
 
 [node name="door_2" type="Area2D" parent="doors"]
 
@@ -119,25 +119,13 @@ shape = SubResource("SegmentShape2D_hvoq3")
 position = Vector2(526, 105)
 
 [node name="Player" parent="." instance=ExtResource("3_seiag")]
-z_index = 2
-position = Vector2(402, 130)
+position = Vector2(104, 125)
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
 limit_left = 0
 limit_top = 0
 limit_right = 700
 limit_bottom = 180
-limit_smoothed = true
-position_smoothing_enabled = true
-
-[node name="interact_label" type="Label" parent="Player"]
-visible = false
-offset_left = -58.0
-offset_top = -31.0
-offset_right = -3.0
-offset_bottom = -8.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "Press E"
 
 [connection signal="body_entered" from="doors/door_1" to="." method="_on_door_1_body_entered"]
 [connection signal="body_exited" from="doors/door_1" to="." method="_on_door_1_body_exited"]

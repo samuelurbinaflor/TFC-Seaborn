@@ -7,6 +7,7 @@ const CROUCH_SPEED = 20.0
 const WAITING_TIME = 5.0
 
 @onready var sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var interact_label: Label = $interact_label
 
 
 # --- State machine ---
@@ -114,7 +115,9 @@ func set_spawn_direction(dir: int) -> void:
 # -------------------------
 # INTERACCIÓN
 # -------------------------
-
+func show_interact_label(bol: bool):
+	interact_label.visible = bol
+	
 func start_interaction():
 
 	is_interacting = true

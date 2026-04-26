@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2qeomrdsi7vp"]
+
+[ext_resource type="Texture2D" uid="uid://c3idexaomkevy" path="res://game/assets/guard_front.png" id="1_gm7nt"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3cdpc"]
+size = Vector2(11, 4)
+
+[node name="guard" type="CharacterBody2D"]
+collision_layer = 4
+collision_mask = 3
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_gm7nt")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.5, 30)
+shape = SubResource("RectangleShape2D_3cdpc")

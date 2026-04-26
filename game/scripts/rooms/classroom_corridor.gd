@@ -1,7 +1,6 @@
 extends Node2D
 
 @onready var player: CharacterBody2D = $Player
-@onready var interact_label: Label = $Player/interact_label
 
 #Almacena el nombre de la siguiente escena
 var player_on_area = "none"
@@ -16,8 +15,6 @@ func _ready() -> void:
 		var spawn_node = get_node("doors/door_" + str(Global.spawn_info[0]) + "/spawn_" + str(Global.spawn_info[0]))
 		player.position = spawn_node.position
 
-func show_interact_label(bol: bool):
-	interact_label.visible = bol
 	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

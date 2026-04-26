@@ -1,8 +1,32 @@
-[gd_scene load_steps=4 format=3 uid="uid://djtrhqc0l3s7x"]
+[gd_scene load_steps=10 format=3 uid="uid://djtrhqc0l3s7x"]
 
 [ext_resource type="Script" uid="uid://h4hj3g3oygnb" path="res://game/scripts/rooms/cafeteria.gd" id="1_lqw3k"]
 [ext_resource type="Texture2D" uid="uid://c7acel8glnkl0" path="res://game/assets/scenario/dining_hall.png" id="2_lqw3k"]
 [ext_resource type="PackedScene" uid="uid://dy4tc70ogykhq" path="res://game/scenes/player.tscn" id="3_lqid6"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_lqw3k"]
+a = Vector2(65, 108)
+b = Vector2(-6, 129)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_ebh0b"]
+a = Vector2(563, 108)
+b = Vector2(63, 108)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_lqid6"]
+a = Vector2(-1, 120)
+b = Vector2(-1, 182)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_d12sl"]
+a = Vector2(807, 181)
+b = Vector2(-5, 181)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_1is4g"]
+a = Vector2(556, 107)
+b = Vector2(808, 183)
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_812ff"]
+a = Vector2(762, 157)
+b = Vector2(740, 194)
 
 [node name="cafeteria" type="Node2D"]
 script = ExtResource("1_lqw3k")
@@ -11,37 +35,46 @@ script = ExtResource("1_lqw3k")
 texture = ExtResource("2_lqw3k")
 centered = false
 
-[node name="Player" parent="." instance=ExtResource("3_lqid6")]
-position = Vector2(742, 110)
-
-[node name="interact_label" type="Label" parent="Player"]
-visible = false
-offset_left = 31.0
-offset_top = -30.0
-offset_right = 86.0
-offset_bottom = -7.0
-theme_override_colors/font_color = Color(0, 0, 0, 1)
-text = "Press E"
-
-[node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(-143, -93)
-anchor_mode = 0
-limit_left = 0
-limit_top = 0
-limit_right = 800
-limit_bottom = 180
-limit_smoothed = true
-position_smoothing_enabled = true
-
 [node name="doors" type="Node2D" parent="."]
 
 [node name="door_3" type="Area2D" parent="doors"]
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="doors/door_3"]
 position = Vector2(682, 147)
-polygon = PackedVector2Array(-0.33337402, -1.4159241, 36.666626, 22.584076, -9.333374, 24.584076, -35.333374, -2.415924)
+polygon = PackedVector2Array(-5, -2, 37, 11, 13, 23, -30, 2)
 
 [node name="spawn_3" type="Node2D" parent="doors/door_3"]
-position = Vector2(741, 109)
+position = Vector2(660, 100)
+
+[node name="walls" type="StaticBody2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_lqw3k")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_ebh0b")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_lqid6")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_d12sl")
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_1is4g")
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="walls"]
+shape = SubResource("SegmentShape2D_812ff")
+
+[node name="Player" parent="." instance=ExtResource("3_lqid6")]
+position = Vector2(621, 126)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+limit_left = 0
+limit_top = 0
+limit_right = 800
+limit_bottom = 180
 
 [connection signal="body_entered" from="doors/door_3" to="." method="_on_door_3_body_entered"]
+[connection signal="body_exited" from="doors/door_3" to="." method="_on_door_3_body_exited"]
