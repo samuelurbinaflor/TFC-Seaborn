@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3idexaomkevy"
-path="res://.godot/imported/guard_front.png-6084ed16ccfbd4889dfbac379f68de8f.ctex"
+uid="uid://bvtylfhrsg1lt"
+path="res://.godot/imported/alejandro.png-279efddab6c8ad35b04c0e702dba4e23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://game/assets/guard_front.png"
-dest_files=["res://.godot/imported/guard_front.png-6084ed16ccfbd4889dfbac379f68de8f.ctex"]
+source_file="res://game/assets/characters/alejandro.png"
+dest_files=["res://.godot/imported/alejandro.png-279efddab6c8ad35b04c0e702dba4e23.ctex"]
 
 [params]
 

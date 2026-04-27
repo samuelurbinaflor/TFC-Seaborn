@@ -1312,7 +1312,7 @@ _data = {
 &"walk_s": SubResource("Animation_4f15u")
 }
 
-[node name="Player" type="CharacterBody2D"]
+[node name="player" type="CharacterBody2D"]
 z_index = 1
 collision_mask = 6
 script = ExtResource("1_sgs03")
