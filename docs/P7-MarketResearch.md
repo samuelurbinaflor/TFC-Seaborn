@@ -123,7 +123,7 @@ El jugador deberá explorar, infiltrarse y evitar ser detectado recogiendo pista
 
 ### Geográfico
 - Europa (Especialmente España)
-- Norteamérica  
+- América Latina  
 - Japón
 
 Implementación de traducciones al inglés y otros posibles idiomas.
